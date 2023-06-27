@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Expediente Alfredo A. Pinzón</title>
+                <editor>Jairo Alberto Tamí Rincón</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                 <publisher></publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <standOff>
+        <listPerson>
+            <person xml:id="rfuu">
+                <persName>Rafael Uribe Uribe</persName>
+                <occupation type="militar"><roleName>General</roleName></occupation>
+                <affiliation type="militar" corresp="#bon.Bvar">Batallón Bolívar</affiliation>
+                <affiliation type="política" corresp="#bon.Bvar">Partido Liberal</affiliation>
+                <event ref="#b1"><desc>Batalla de Peralonso</desc></event>
+            </person>
+
+            <person xml:id="ptq">
+                <persName>Primitivo Quintero</persName>
+                <occupation type="militar"><roleName>Coronel</roleName></occupation>
+                <affiliation corresp="#bon.1Bgta">Batallón Primero de Bogotá</affiliation>
+            </person>
+
+        </listPerson>
+
+        <listPlace>
+            <place xml:id="pn" type="pueblo">
+                <placeName><settlement>Pinchote</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+            </place>
+        </listPlace>
+
+        <listOrg>
+            <org xml:id="bon.Bvar">
+                <orgName type="militar" subtype="batallón">Bolívar</orgName>
+                <persName role="Jefe" ref="#rfuu">Rafael Uribe Uribe</persName>
+                <trait type="afiliación"><desc><orgName>Partido Liberal</orgName></desc></trait>
+            </org>
+            <org xml:id="bon.1Bgta">
+                <orgName type="militar" subtype="batallón">Primero de Bogotá</orgName>
+                <persName role="Jefe" ref="#rfuu">Primitivo Quintero</persName>
+                <event><desc>Batalla de Bucaramanga</desc></event>
+            </org>
+
+            <org xml:id="pL">
+                <orgName type="ejército">Ejército Liberal</orgName>
+                <persName role="Jefe" ref="#rfuu">Primitivo Quintero</persName>
+                <orgName type="subunidad" ref="#bon.1Bgta">Primero de Bogotá </orgName>
+            </org>
+        </listOrg>
+
+        <listEvent>
+            <event xml:id="b1" type="batalla">
+                <desc>
+                    <name> Batalla de Bucaramanga </name>
+                    <date from="1899-11-11" to="1899-11-13">1899-11-11 a 1899-11-13</date>
+                    <placeName ref="#bga">Bucaramanga</placeName>
+                    <desc type="fuerzasEnfrentadas">Fuerzas:
+                        <orgName>Partido Liberal</orgName> 
+                        <orgName>Gobierno</orgName>
+                    </desc>
+                    <trait type="resultado"><desc>Victoria Conservadora</desc></trait>
+                </desc>
+            </event>
+        </listEvent>
+    </standOff>
+
+    <text xml:id="_516.970.PA" type="expediente">
+        
+        <front>
+            <head>Ministerio de Guerra</head>
+            <head>Secretaría General</head>
+            <head>Archivo General</head>
+            <p>Expediente N° 970</p>
+            <p>RECOMPENSA DE ANTIGUOS MILITARES</p>
+            <p>LEYES 65 DE 1937 Y 7a. DE 1938</p>
+        </front>
+        
+        <body>
+            
+            <div xml:id="t1" type="trámite" subtype="inscripciónEscalafón">
+
+                <div xml:id="doc1" type="solicitud">
+
+                    <opener> 
+                        <salute> SEÑORES MIEMBROS DE LA <orgName>COMISIÓN DE INSCRIPCIÓN
+                    DEL "ESCALAFÓN DE ANTIGUOS MILITARES"</orgName>  de <placeName>Bogotá.</placeName>
+                        </salute>
+                    </opener>
+                    <p>Yo,<persName>Alfredo A. Pinzón</persName>, mayor de edad y vecino de
+                    <placeName>Bogotá</placeName>, ciudadano en ejercicio como lo compruebe
+                    con la cédula electoral número 1237415, procedente
+                    del Jurado Electoral de esta misma Capital, por medio del presente
+                    memorial de la manera más atenta, les pido a Uds. que previa la
+                    tramitación correspondiente, se sirvan de inscribir mi nombre en el
+                    escalafón de antiguos militares, con el grado de Sub-Teniente, para lo cual
+                    acompaño los siguientes documentos:</p>
+                    <list type="requisitos">
+                        <item corresp="#doc2"><p>Tres declaraciones de testigos hábiles tomadas ante el señor Juez
+                        Primero Superior de este Distrito, con las cuales compruebo que 
+                        obtuve dicho grado;</p></item> 
+                        <item><p>La certificación sobre idoneidad de los testigos, expedido por el
+                        mismo Funcionario;</p></item>
+                        <item><p>Un certificado del señor Jefe de la Penitenciaría Central de esta
+                        Capital, en el cual consta mi prisión;</p></item>
+                        <item><p>Una nota Oficial autógrafa del Jefe Civil y Militar del Departamento
+                        de <placeName type="departamento">Boyacá</placeName> , dirigida al Secretario de Gobierno de <placeName type="departamento">Cundinamarca</placeName>, en
+                        la cual se le comunica que mi Sr. padre <persName role="familiar">Jesús Pinzón</persName> le sirvió de
+                        fiador; y</p></item>
+                        <item><p>La hoja de vida de campaña militar.</p></item>
+                    </list>
+                    <p>En consecuencia ruego a Uds. se sirvan proveer la respectiva
+                    resolución, incluyendo mi nombre en el Escalafón que se está formando,
+                    con el grado que indico atrás.</p>
+                    <p>Derivo el derecho que me confieren las disposiciones del Decreto
+                    número 321 de 25 de Febrero del corriente año y las pertinentes de
+                    la Ley 65 de 1937 en sus artículos 1° y 2°.</p>
+                    <p>En su Oficina recibiré notificaciones.</p>
+                    <closer>
+                       <salute>Honorables Miembros de la Junta,</salute> 
+                       <signed><persName>Alfredo A. Pinzón</persName>.</signed> 
+                       <dateline>
+                            <placeName>Bogotá</placeName>, 
+                            <date when="1938-06-01">Junio 1° de 1938</date>
+                        </dateline> 
+                    </closer> 
+                </div>
+                <div xml:id="t1_1" type="trámite" subtype="tomaDeclaraciones">
+                    <div type="solcitud">
+                        <opener>
+                            <salute>SEÑOR JUEZ PRIMERO SUPERIOR
+                        <abbr>E. S. D.<expan>En su despacho</expan></abbr>
+                            </salute>
+                        </opener>
+                        <p><persName>Alfredo A. Pinzón</persName>, varón mayor de edad, vecino de
+                        <placeName>Bogotá</placeName> y cedulado en la misma Ciudad, bajo el
+                        #1237415, con el debido acatamiento solicito que a mi
+                        costa, previos requisitos de la ley y con asistencia del Sr. Agente del
+                        Ministerio Público, se reciba declaración a los señores <persName>Roberto 
+                        Vargas C</persName>., <persName>Francisco Forero</persName> y <persName>Ezequiel Corrales</persName> sobre los siguientes
+                        puntos:</p>
+                        <list>
+                            <item>PRIMERO: Edad, vecindad y generales de la Ley;</item> 
+                            <item>SEGUNDO: Si me conocen de trato, vista y comunicación y cuánto
+                            tiempo hace y en caso afirmativo que digan:
+                                <list>
+                                    <item>(a) Si les consta que durante la <name>guerra civil de 1899 a 1902</name>,
+                                    presté mis servicios al <orgName>Ejército Liberal</orgName>, ingresando como voluntario
+                                    en <placeName>"La Platea"</placeName>  jurisdicción del Municipio de <placeName>Pacho</placeName> , Departamento de 
+                                    <placeName>Cundinamarca</placeName>  a las fuerzas que comandaba el <persName>General Pedro Sánchez</persName>;</item> 
+                                    <item>(b) Si les consta que fui ascendido a Sub-teniente, con destino a la
+                                    <orgName>TERCERA compañía</orgName> del <abbr>Bon<expan>Batallón</expan></abbr>-<orgName>"Bolívar"</orgName>  cuyo primer Jefe era el Coronel
+                                    Manuel V. González, por el General Polidoro Ardila; den la razón de su
+                                    dicho;</item> 
+                                    <item>(c) Digan si es verdad que con ese grado terminé la campaña en "Vetas"
+                                    Departamento de Santander, por haber caído prisionero y conducido al
+                                    Panóptico de Tunja de donde salí por haberme aceptado una fianza
+                                    constituida por mi padre Jesús Pinzón G.</item>
+                                </list>
+                            </item>
+                            <item>TERCERO: Si les consta que después de esa campaña he permanecido
+                            firme al servicio de la Causa Liberal.</item>
+                        </list>
+                        <p>Para dar cumplimiento a lo dispuesto por el Decreto #321 del año en 
+                        curso, reglamentario de la Ley 65 de 1937, en su Art. 4°, el Sr.
+                        Agente del Ministerio Público se dirigirá a reinterrogar a los testigos
+                        sobre la razón de su dicho y los cuales deben decir qué grado
+                        militar obtuvieron en dicha campaña.</p> 
+                        <p>Practicadas estas diligencias ruego me sean devueltas 
+                        junto con el correspondiente certificado sobre la idoneidad de los testigos.</p> 
+                        
+                        <closer>
+                            <salute> Señor Juez.</salute>
+                            <signed>Alfredo A. Pinzón.</signed> 
+                            <dateline>
+                                <placeName>Bogotá</placeName>, 
+                                <date when="1938-05-12">Mayo 12 de 1938</date>
+                            </dateline>
+                        </closer> 
+                    </div>
+                    <div type="documento" subtype="recepción">
+                        <p>Recibido hoy 20 de mayo de 1938 y al despacho del señor Juez,</p>
+                        <closer><signed>ILEGIBLE</signed></closer>
+                    </div>
+                    <div type="documento" subtype="orden">
+                        <head><orgName>Juzgado Primero Superior</orgName></head>
+                        <dateline><placeName>Bogotá</placeName>,<date when="1938-05-20">mayo veinte de mil novecientos treinta y
+                        ocho</date>.</dateline>
+                        <p>Recíbanse las declaraciones solicitadas con
+                        asistencia del señor Agente del Ministerio Público.</p> 
+                        <p>Dése el certificdo correspondiente.</p>
+                        <p>Cúmplase.</p>
+                        <signed>El Juez,</signed> 
+                        <signed>El Secretario,</signed>
+                    </div>
+                    <div>
+                        <p>Hoy veinte de mayo de mil novecientos treinta y ocho, notifiqué
+                        personalmente el auto al señor Agente del Ministerio
+                        Público quien impuesto firma quedando citado para que asista.</p> 
+                        <!--SELLO JUZGADO PRIMERO.-->
+                        <signed>RAFAEL POVEDA</signed>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>    
+            </div>
+       </body>
+    </text>
+</TEI>
