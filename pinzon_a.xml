@@ -407,7 +407,34 @@
                             <stamp corresp="#centralBog">Penitenciaría Central. Subdirección</stamp>
                         </closer>
                     </div>
-                </div>    
+                </div>
+                <div type="documento" subtype="certificado">
+                    <head>DE COLOMBIA</head> 
+                    <head>JEFATURA CIVIL Y MILITAR
+                    DEL DEPARTAMENTO DE BOYACÁ</head> 
+                    <head>SECRETARIA DE GOBIERNO</head> 
+                    <!-- <p>NUMERO 1195</p>-->
+                    <opener>
+                        <dateline>Tunja 25 de octubre de 1900</dateline> 
+                    Señor Secretario de Gobierno 
+                    de Cundinamarca
+                    Bogotá
+                    </opener>
+                    <p>Por su honorable conducta
+                    tenga el honor de comunicar al Señor
+                    Jefe Cicil y Militar de ese Departamento
+                    que en virtud de haber prestado
+                    fianza en esa Ciudad el Señor Jesus Pinzón
+                    G. por la cual se compromete a
+                    responder por su hijo Alfredo A. Pinzón
+                    prisionero de Guerra en "Vetas" a que se
+                    presente en ese despacho para lo que
+                    disponga el Señor Jefe  Civil y Militar, se
+                    ha puesto en libertad.
+                    Dios guarde a ud.
+                    FIRMA</p> 
+                </div>
+                <div></div>    
             </div>
        </body>
     </text>
