@@ -43,10 +43,222 @@
         </listPerson>
 
         <listPlace>
-            <place xml:id="pn" type="pueblo">
+            <place xml:id="bgta" type="ciudad">
+                <placeName><settlement>Bogotá</settlement></placeName>
+                <country>Colombia</country>
+                <location>
+                    <geo>4.60971, -74.08175</geo>
+                </location>
+            </place>
+            <place xml:id="bga" type="ciudad">
+                <placeName><settlement>Bucaramanga</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.118611, -73.116111</geo>
+                </location>
+            </place>
+            <place xml:id="chqra" type="pueblo">
+                <placeName><settlement>Chiquinquirá</settlement></placeName>
+                <region type="departamento">Boyacá</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5.6175, -73.816389</geo>
+                </location>
+            </place>
+            <place xml:id="chp" type="pueblo">
+                <placeName type="antiguo">Chopo</placeName>
+                <placeName type="actual"><settlement>Pamplonita</settlement></placeName>
+                <region type="departamento" from="1856" to="1910">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.436667, -72.637778</geo>
+                </location>
+            </place>
+            <place xml:id="cga" type="pueblo">
+                <placeName><settlement>Cogua</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5.061944, -73.979444</geo>
+                </location>
+            </place>
+            <place xml:id="ccta" type="ciudad">
+                <placeName><settlement>Cúcuta</settlement></placeName>
+                <region type="departamento" from="1856" to="1910">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.9075, -72.504722</geo>
+                </location>
+            </place>
+            <place xml:id="gmlt" type="pueblo">
+                <placeName><settlement>Gramalote</settlement></placeName>
+                <region type="departamento" from="1856" to="1910">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.888056, -72.796667</geo>
+                </location>
+            </place>
+            <place xml:id="gca" type="pueblo">
+                <placeName><settlement>Guaca</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>6.876944, -72.855556</geo>
+                </location>
+            </place>
+            <place xml:id="lmstos" type="meseta">
+                <placeName><geogName>La Mesa de los Santos</geogName></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>6.941389, -73.036389</geo>
+                </location>
+            </place>
+            <place xml:id="lpdra" type="inspección">
+                <placeName><settlement>Cúcuta</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5,00405, -74,13094</geo>
+                </location>
+            </place>
+            <place xml:id="pch" type="pueblo">
+                <placeName><settlement>Pacho</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5.130556, -74.158333</geo>
+                </location>
+            </place>
+            <place xml:id="pmpla" type="ciudad">
+                <placeName><settlement>Pamplona</settlement></placeName>
+                <region type="departamento" from="1856" to="1910">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.9075, -72.504722</geo>
+                </location>
+            </place>
+            <place xml:id="pdcta">
+                <placeName><settlement>Piedecuesta</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>6.988611, -73.050278</geo>
+                </location>
+            </place>
+            <place xml:id="pcht" type="pueblo">
                 <placeName><settlement>Pinchote</settlement></placeName>
                 <region type="departamento">Santander</region>
                 <country>Colombia</country>
+                <location>
+                    <geo>6.5325, -73.1725</geo>
+                </location>
+            </place>
+            <place xml:id="rplso" type="río">
+                <placeName><geogName>Río Peralonso</geogName></placeName>
+                <region type="departamento" from="1856" to="1910">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.91747, -72.58788</geo>
+                </location>
+            </place>
+            <place xml:id="rngo" type="pueblo">
+                <placeName><settlement>Rionegro</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.264167, -73.149444</geo>
+                </location>
+            </place>
+            <place xml:id="sng" type="pueblo">
+                <placeName><settlement>San Gil</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>6.555, -73.133611</geo>
+                </location>
+            </place>
+            <place xml:id="srrla" type="pueblo">
+                <placeName type="antiguo">Serrezuela</placeName>
+                <placeName type="actual"><settlement>Madrid</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>4.730556, -74.263889</geo>
+                </location>
+            </place>
+            <place xml:id="smja" type="pueblo">
+                <placeName><settlement>Simijaca</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5.503333, -73.851667</geo>
+                </location>
+            </place>
+            <place xml:id="sco" type="pueblo">
+                <placeName><settlement>El Socorro</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>6.467778°, -73.259722</geo>
+                </location>
+            </place>
+            <place xml:id="sbque" type="pueblo">
+                <placeName><settlement>Subachoque</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>4.928056, -74.173611</geo>
+                </location>
+            </place>
+            <place xml:id="srta" type="pueblo">
+                <placeName><settlement>Suratá</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.366944, -72.984167</geo>
+                </location>
+            </place>
+            <place xml:id="tna" type="pueblo">
+                <placeName><settlement>Tona</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.201944, -72.966389</geo>
+                </location>
+            </place>
+            <place xml:id="tja" type="ciudad">
+                <placeName><settlement>Tunja</settlement></placeName>
+                <region type="departamento">Boyacá</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5.540278, -73.361389</geo>
+                </location>
+            </place>
+            <place xml:id="ubt" type="pueblo">
+                <placeName><settlement>Ubaté</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5.307222, -73.814444</geo>
+                </location>
+            </place>
+            <place xml:id="vts" type="pueblo">
+                <placeName><settlement>Vetas</settlement></placeName>
+                <region type="departamento">Santander</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>7.309722, -72.870556</geo>
+                </location>
+            </place>
+            <place xml:id="zpqr" type="pueblo">
+                <placeName><settlement>Zipaquirá</settlement></placeName>
+                <region type="departamento">Cundinamarca</region>
+                <country>Colombia</country>
+                <location>
+                    <geo>5.024722, -74.001389</geo>
+                </location>
             </place>
         </listPlace>
 
