@@ -26,20 +26,55 @@
 
     <standOff>
         <listPerson>
+            <person xml:id="aap">
+                <persName>Alfredo A. Pinzón</persName>
+                <occupation type="militar" notBefore="1899" notAfter="1900"><roleName>Subteniente</roleName></occupation>
+                <affiliation type="militar" corresp="#bon.1Bgta">Batallón Primero de Bogotá</affiliation>
+                <affiliation type="militar" corresp="#bon.Bvar">Batallón Bolívar</affiliation>
+                <affiliation type="política" corresp="#bon.Bvar">Partido Liberal</affiliation>
+                <event ref="#btllBga"><desc>Batalla de Bucaramanga</desc></event>
+                <event ref="#btllBga"><desc>Batalla de Peralonso</desc></event>
+                <event ref="#btllBga"><desc>Gramalote</desc></event>
+                <event ref="#btllBga"><desc>La Tronadora</desc></event>
+                <event ref="#btllBga"><desc>Vetas</desc></event>
+            </person>
+            <person xml:id="pvoq">
+                <persName>Primitivo Quintero</persName>
+                <occupation type="militar"><roleName>Coronel</roleName></occupation>
+                <affiliation type="militar" corresp="#bon.1Bgta">Batallón Primero de Bogotá</affiliation>
+            </person>
             <person xml:id="rfuu">
                 <persName>Rafael Uribe Uribe</persName>
                 <occupation type="militar"><roleName>General</roleName></occupation>
+                <affiliation type="política" corresp="pL">Partido Liberal</affiliation>
+                <event ref="#btllBga"><desc>Batalla de Bucaramanga</desc></event>
+                <event ref="#btllBga"><desc>Batalla de Peralonso</desc></event>
+            </person>
+            <person xml:id="jld">
+                <persName>Justo L. Durán</persName>
+                <occupation type="militar"><roleName>General</roleName></occupation>
+                <affiliation type="política" corresp="pL">Partido Liberal</affiliation>
+            </person>
+            <person xml:id="efc">
+                <persName>Ezequiel F. Corrales</persName>
+                <occupation type="militar"><roleName>Sargento Primero</roleName></occupation>
                 <affiliation type="militar" corresp="#bon.Bvar">Batallón Bolívar</affiliation>
-                <affiliation type="política" corresp="#bon.Bvar">Partido Liberal</affiliation>
-                <event ref="#b1"><desc>Batalla de Peralonso</desc></event>
             </person>
-
-            <person xml:id="ptq">
-                <persName>Primitivo Quintero</persName>
+            <person xml:id="fcof">
+                <persName>Francisco Forero</persName>
+                <occupation type="militar"><roleName>Capitán</roleName></occupation>
+                <affiliation type="militar" corresp="#bon.Bvar">Batallón Bolívar</affiliation>
+            </person>
+            <person xml:id="rvc">
+                <persName>Roberto Vargas C.</persName>
+                <occupation type="militar"><roleName>Comandante Instructor</roleName></occupation>
+                <affiliation type="militar" corresp="#bon.Bvar">Batallón Bolívar</affiliation>
+            </person>
+            <person xml:id="mvg">
+                <persName>Manuel V. González</persName>
                 <occupation type="militar"><roleName>Coronel</roleName></occupation>
-                <affiliation corresp="#bon.1Bgta">Batallón Primero de Bogotá</affiliation>
+                <affiliation type="militar" corresp="#bon.Bvar">Batallón Bolívar</affiliation>
             </person>
-
         </listPerson>
 
         <listPlace>
@@ -265,19 +300,22 @@
         <listOrg>
             <org xml:id="bon.Bvar">
                 <orgName type="militar" subtype="batallón">Bolívar</orgName>
-                <persName role="Jefe" ref="#rfuu">Rafael Uribe Uribe</persName>
+                <persName role="Jefe" ref="#mvg">Manuel V. González</persName>
                 <trait type="afiliación"><desc><orgName>Partido Liberal</orgName></desc></trait>
+            </org>
+            <org xml:id="bon.BvarGbno">
+                <orgName type="militar" subtype="batallón">Bolívar</orgName>
+                <trait type="afiliación"><desc><orgName>Gobierno de Colombia</orgName></desc></trait>
             </org>
             <org xml:id="bon.1Bgta">
                 <orgName type="militar" subtype="batallón">Primero de Bogotá</orgName>
-                <persName role="Jefe" ref="#rfuu">Primitivo Quintero</persName>
+                <persName role="Jefe" ref="#pvoq">Primitivo Quintero</persName>
+                <trait type="afiliación"><desc><orgName>Partido Liberal</orgName></desc></trait>
                 <event><desc>Batalla de Bucaramanga</desc></event>
             </org>
-
-            <org xml:id="pL">
-                <orgName type="ejército">Ejército Liberal</orgName>
-                <persName role="Jefe" ref="#rfuu">Primitivo Quintero</persName>
-                <orgName type="subunidad" ref="#bon.1Bgta">Primero de Bogotá </orgName>
+            <org xml:id="ejtoLib">
+                <orgName type="militar" subtype="ejército">Ejército Liberal</orgName>
+                <persName role="Jefe" ref="#rfuu">Rafael Uribe Uribe</persName>
             </org>
         </listOrg>
 
