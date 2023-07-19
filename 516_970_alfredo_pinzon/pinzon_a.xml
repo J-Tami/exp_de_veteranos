@@ -320,16 +320,36 @@
         </listOrg>
 
         <listEvent>
-            <event xml:id="b1" type="batalla">
+            <event xml:id="gmd" type="guerra">
+                <desc>
+                    <name>Guerra de los Mil Días</name>
+                    <date from="1899-10-17" to="1902-11-21"/>
+                    <country>Colombia</country>
+                    <desc>Victoria conservadora</desc>
+                </desc>
+            </event>
+            <event xml:id="btllaBga" type="batalla">
                 <desc>
                     <name> Batalla de Bucaramanga </name>
-                    <date from="1899-11-11" to="1899-11-13">1899-11-11 a 1899-11-13</date>
+                    <date from="1899-11-11" to="1899-11-13"/>
                     <placeName ref="#bga">Bucaramanga</placeName>
                     <desc type="fuerzasEnfrentadas">Fuerzas:
                         <orgName>Partido Liberal</orgName> 
                         <orgName>Gobierno</orgName>
                     </desc>
                     <trait type="resultado"><desc>Victoria Conservadora</desc></trait>
+                </desc>
+            </event>
+            <event xml:id="batPso" type="batalla">
+                <desc>
+                    <name>Batalla de Peralonso</name>
+                    <date from="1899-12-15" to="1899-12-16"/>
+                    <placeName ref="#rplso">Río Peralonso</placeName>
+                    <desc type="fuerzasEnfrentadas">Fuerzas:
+                        <orgName>Partido Liberal</orgName> 
+                        <orgName>Gobierno</orgName>
+                    </desc>
+                    <trait type="resultado"><desc>Victoria Liberal</desc></trait>
                 </desc>
             </event>
         </listEvent>
@@ -354,11 +374,11 @@
 
                     <opener> 
                         <salute> SEÑORES MIEMBROS DE LA <orgName>COMISIÓN DE INSCRIPCIÓN
-                    DEL "ESCALAFÓN DE ANTIGUOS MILITARES"</orgName>  de <placeName>Bogotá.</placeName>
+                    DEL "ESCALAFÓN DE ANTIGUOS MILITARES"</orgName>  de <placeName ref="#bgta">Bogotá.</placeName>
                         </salute>
                     </opener>
-                    <p>Yo,<persName>Alfredo A. Pinzón</persName>, mayor de edad y vecino de
-                    <placeName>Bogotá</placeName>, ciudadano en ejercicio como lo compruebe
+                    <p>Yo,<persName ref="#app">Alfredo A. Pinzón</persName>, mayor de edad y vecino de
+                    <placeName ref="#bgta">Bogotá</placeName>, ciudadano en ejercicio como lo compruebe
                     con la cédula electoral número 1237415, procedente
                     del Jurado Electoral de esta misma Capital, por medio del presente
                     memorial de la manera más atenta, les pido a Uds. que previa la
@@ -375,7 +395,7 @@
                         Capital, en el cual consta mi prisión;</p></item>
                         <item><p>Una nota Oficial autógrafa del Jefe Civil y Militar del Departamento
                         de <placeName type="departamento">Boyacá</placeName> , dirigida al Secretario de Gobierno de <placeName type="departamento">Cundinamarca</placeName>, en
-                        la cual se le comunica que mi Sr. padre <persName role="familiar">Jesús Pinzón</persName> le sirvió de
+                        la cual se le comunica que mi Sr. padre <persName xml:id="jsp" role="familiar" corresp="#aap">Jesús Pinzón</persName> le sirvió de
                         fiador; y</p></item>
                         <item><p>La hoja de vida de campaña militar.</p></item>
                     </list>
@@ -388,7 +408,7 @@
                     <p>En su Oficina recibiré notificaciones.</p>
                     <closer>
                        <salute>Honorables Miembros de la Junta,</salute> 
-                       <signed><persName>Alfredo A. Pinzón</persName>.</signed> 
+                       <signed><persName ref="#aap">Alfredo A. Pinzón</persName>.</signed> 
                        <dateline>
                             <placeName>Bogotá</placeName>, 
                             <date when="1938-06-01">Junio 1° de 1938</date>
@@ -415,30 +435,30 @@
                         <abbr>E. S. D.<expan>En su despacho</expan></abbr>
                             </salute>
                         </opener>
-                        <p><persName>Alfredo A. Pinzón</persName>, varón mayor de edad, vecino de
+                        <p><persName ref="#aap">Alfredo A. Pinzón</persName>, varón mayor de edad, vecino de
                         <placeName>Bogotá</placeName> y cedulado en la misma Ciudad, bajo el
                         #1237415, con el debido acatamiento solicito que a mi
                         costa, previos requisitos de la ley y con asistencia del Sr. Agente del
-                        Ministerio Público, se reciba declaración a los señores <persName>Roberto 
-                        Vargas C</persName>., <persName>Francisco Forero</persName> y <persName>Ezequiel Corrales</persName> sobre los siguientes
+                        Ministerio Público, se reciba declaración a los señores <persName ref="#rvc">Roberto 
+                        Vargas C</persName>., <persName ref="#fcof">Francisco Forero</persName> y <persName ref="#efc">Ezequiel Corrales</persName> sobre los siguientes
                         puntos:</p>
                         <list>
                             <item>PRIMERO: Edad, vecindad y generales de la Ley;</item> 
                             <item>SEGUNDO: Si me conocen de trato, vista y comunicación y cuánto
                             tiempo hace y en caso afirmativo que digan:
                                 <list>
-                                    <item>(a) Si les consta que durante la <name>guerra civil de 1899 a 1902</name>,
+                                    <item>(a) Si les consta que durante la <name ref="#gmd">guerra civil de 1899 a 1902</name>,
                                     presté mis servicios al <orgName>Ejército Liberal</orgName>, ingresando como voluntario
-                                    en <placeName>"La Platea"</placeName>  jurisdicción del Municipio de <placeName>Pacho</placeName> , Departamento de 
-                                    <placeName>Cundinamarca</placeName>  a las fuerzas que comandaba el <persName>General Pedro Sánchez</persName>;</item> 
-                                    <item>(b) Si les consta que fui ascendido a Sub-teniente, con destino a la
-                                    <orgName>TERCERA compañía</orgName> del <abbr>Bon<expan>Batallón</expan></abbr>-<orgName>"Bolívar"</orgName>  cuyo primer Jefe era el Coronel
-                                    Manuel V. González, por el General Polidoro Ardila; den la razón de su
+                                    en <placeName type="hacienda">"La Platea"</placeName>  jurisdicción del Municipio de <placeName ref="#pch">Pacho</placeName> , Departamento de 
+                                    <placeName type="departamento">Cundinamarca</placeName>  a las fuerzas que comandaba el <persName xml:id="psz"><roleName type="militar">General</roleName>Pedro Sánchez</persName>;</item> 
+                                    <item>(b) Si les consta que fui ascendido a <roleName type="militar">Sub-teniente</roleName> , con destino a la
+                                    <orgName xml:id="cia3BonBvar" type="militar" subtype="compañía">TERCERA compañía</orgName> del <orgName ref="#bon.Bvar"><abbr>Bon<expan>Batallón</expan></abbr>-"Bolívar"</orgName>  cuyo primer Jefe era el Coronel
+                                    <persName ref="#mvg">Manuel V. González</persName>, por el <persName xml:id="pda"><roleName type="militar">General</roleName> Polidoro Ardila</persName>; den la razón de su
                                     dicho;</item> 
-                                    <item>(c) Digan si es verdad que con ese grado terminé la campaña en "Vetas"
-                                    Departamento de Santander, por haber caído prisionero y conducido al
-                                    Panóptico de Tunja de donde salí por haberme aceptado una fianza
-                                    constituida por mi padre Jesús Pinzón G.</item>
+                                    <item>(c) Digan si es verdad que con ese grado terminé la campaña en <placeName ref="#vts">"Vetas"</placeName> 
+                                    Departamento de <placeName type="departamento">Santander</placeName>, por haber caído prisionero y conducido al
+                                    Panóptico de <placeName ref="#tja">Tunja</placeName> de donde salí por haberme aceptado una fianza
+                                    constituida por mi padre <persName ref="#jsp">Jesús Pinzón G</persName>.</item>
                                 </list>
                             </item>
                             <item>TERCERO: Si les consta que después de esa campaña he permanecido
@@ -454,9 +474,9 @@
                         
                         <closer>
                             <salute> Señor Juez.</salute>
-                            <signed>Alfredo A. Pinzón.</signed> 
+                            <signed><persName ref="#aap">Alfredo A. Pinzón</persName>.</signed> 
                             <dateline>
-                                <placeName>Bogotá</placeName>, 
+                                <placeName ref="#bgta">Bogotá</placeName>, 
                                 <date when="1938-05-12">Mayo 12 de 1938</date>
                             </dateline>
                         </closer> 
@@ -489,118 +509,118 @@
                         </closer>
                     </div>
                     <div type="documento" subtype="declaración">
-                        <p>En Bogotá a veinte de mayo de mil novecientos treinta y ocho, 
-                        compareció al Juzgado el señor Ezequiel F. Corrales con el fin de
+                        <p>En <placeName ref="#bgta">Bogotá</placeName> a <date when="1938-05-20">veinte de mayo de mil novecientos treinta y ocho</date>, 
+                        compareció al Juzgado el señor <persName ref="#efc" role="testigo">Ezequiel F. Corrales</persName> con el fin de
                         rendir la declaración que se le pide. Juramentado en forma legal
                         por el señor Juez, previa imposición que se le hizo de los
                         artículos sobre testigos falsos, prometió decir verdad y no proceder de
                         malicia y expuso: PIRMERO: Soy mayor de edad,
                         vecino de esta ciudad, domiciliado en la carrera
                         4a número 1-18 y porto la cédula de ciudadanía
-                        número 903320 de Bogotá y no tengo generales
-                        de la ley con el peticionario señor Alfredo A. Pinzón. SEGUNDO:
+                        número 903320 de <placeName ref="#bgta">Bogotá</placeName> y no tengo generales
+                        de la ley con el peticionario señor <persName ref="#aap">Alfredo A. Pinzón</persName>. SEGUNDO:
                         Conozco de vista, trato y comunicación al peticionario desde hace más
                         de cuarenta años; por dicho conocimiento y por haber militado con
                         él me consta que el peticionario prestó sus servicios a la causa
-                        liberal durante la guerra de mil ochocientos noventa y nueve a mil
-                        novecientos dos, habiendo ingresado como voluntario en "La Platea"
-                        jurisdicción municipal de Pacho, departamento de Cundinamarca, a
-                        las fuerzas que comandaba el General Pedro Sánchez; por la misma
+                        liberal durante la <name ref="#gmd">guerra de mil ochocientos noventa y nueve a mil
+                        novecientos dos</name>, habiendo ingresado como voluntario en <placeName type="hacienda">"La Platea"</placeName>
+                        jurisdicción municipal de <placeName ref="pch">Pacho</placeName>, departamento de <placeName type="departamento">Cundinamarca</placeName> , a
+                        las fuerzas que comandaba el <persName ref="psz">General Pedro Sánchez</persName>; por la misma
                         razón y por haberlo presenciado me consta que el peticionario fue
-                        ascendido a Sub-teniente con destino de la Tercera Compañía del
-                        Batallón "Bolívar" cuyo Jefe era el Coronel Manuel V. González,
-                        ascenso que le otorgó el General Polidoro Ardila en la
-                        reorganización que hubo en Cúcuta después de la batalla de Peralonso; es
+                        ascendido a <roleName type="militar">Sub-teniente</roleName> con destino de la <orgName ref="#cia3BonBvar">Tercera Compañía</orgName>del
+                        <orgName ref="#bon.Bvar">Batallón "Bolívar"</orgName> cuyo Jefe era el <persName ref="#mvg">Coronel Manuel V. González</persName>,
+                        ascenso que le otorgó el <persName ref="#pda">General Polidoro Ardila</persName> en la
+                        reorganización que hubo en <placeName ref="#cta">Cúcuta</placeName> después de la <name ref="#batPso">batalla de <placeName ref="#rplso">Peralonso</placeName></name>; es
                         verdad y me consta que el peticionario fue hecho prisionero en
-                        "Vetas", Departamento de Santander y conducido prisionero al
-                        Panóptico de Tunja, habiendo terminado la campaña con el grado que
+                        <placeName ref="#vts">"Vetas"</placeName>, Departamento de <placeName type="departamento">Santander</placeName> y conducido prisionero al
+                        Panóptico de <placeName ref="#tja">Tunja</placeName>, habiendo terminado la campaña con el grado que
                         mencioné; TERCERO: Me consta que después de esa campaña siempre ha
-                        permanecido firme a la causa liberal. El señor Fiscal que se hallaba
+                        permanecido firme a la causa liberal. El señor <roleName type="funcionario">Fiscal</roleName> que se hallaba
                         presente repreguntó al testigo así: Por qué afirma usted que el
-                        peticionario obtuvo el grado militar de Sub-teniente de la Tercera
-                        Compañía del Batallón "Bolívar" en la reorganización de Cúcuta?
+                        peticionario obtuvo el grado militar de <roleName type="militar">Sub-teniente</roleName> de la <orgName ref="#cia3BonBvar">Tercera
+                        Compañía</orgName> del <orgName ref="#bon.Bvar">Batallón "Bolívar"</orgName> en la reorganización de <placeName ref="#cta">Cúcuta</placeName>?
                         Porque yo pertenecía a la misma Compañía Tercera del Batallón 
-                        "Bolívar" y me tocó presenciarlo en mi calidad de Sargento Primero en
+                        "Bolívar" y me tocó presenciarlo en mi calidad de <roleName>Sargento Primero</roleName> en
                         ese tiempo de dicha compañía. Leyó su declaración y se ratificó en
                         ella. Para que conste firma. Se deja constancia de que se observó
                         el art° 683 del C.J.</p>
                         <closer>
-                            El Juez, <signed>Marco A. González</signed>
-                            El Agente del Ministerio Público, <signed>Rafael Poveda</signed>
-                            El Declarante, <signed>Ezequiel F. Corrales</signed>
-                            El Secretario, <signed>ILEGIBLE</signed>
-                            <stamp corresp="#juz1supBog">Juzgado 1° Superior de Bogotá</stamp>
+                            <signed><persName><roleName type="funcionario">El Juez</roleName>, Marco A. González</persName></signed>
+                            <signed><persName><roleName type="funcionario">El Agente del Ministerio Público</roleName>, Rafael Poveda</persName></signed>
+                            <signed><persName ref="#efc"><roleName>El Declarante</roleName>, Ezequiel F. Corrales</persName></signed>
+                            <signed><roleName type="funcionario">El Secretario</roleName>, ILEGIBLE</signed>
+                            <stamp corresp="#juz1supBog">Juzgado 1° Superior de <placeName ref="#bgta">Bogotá</placeName></stamp>
                         </closer>
                     </div>
                     <div type="documento" subtype="declaración">
-                        <p>En Bogotá a veintiuno de mayo de mil novecientos treinta y ocho
-                        se presentó en el despacho del Juzgado el señor Francisco Forero
+                        <p>En <placeName ref="#bgta">Bogotá</placeName> a <date when="1938-05-21">veintiuno de mayo de mil novecientos treinta y ocho</date>
+                        se presentó en el despacho del Juzgado el señor <persName ref="#fcof" role="testigo">Francisco Forero</persName>
                         con el fin de rendir la declaración que se le pide. El señor Juez
                         le recibió juramento en forma legal y una vez enterado de las 
                         disposiciones sobre testigos falsos prometió decir verdad y expuso:
                         PRIMERO: Soy mayor de edad, vecino de esta Ciudad mi dirección es
                         calle 10a No 9*92, de profesión negociante, no tengo generales con
-                        el peticionario y soy portador de la cédula #1237831 de Bogotá.
-                        SEGUNDO: Desde antes de la guerra civil de los mil días conozco
+                        el peticionario y soy portador de la cédula #1237831 de <placeName ref="#bgta">Bogotá</placeName>.
+                        SEGUNDO: Desde antes de la <name ref="#gmd">guerra civil de los mil días</name> conozco
                         al peticionario de vista, trato y comunicación. TERCERO: Es verdad
                         y me consta por haberlo presenciado y por haber sido compañero de
                         armas del peticionario, que este señor prestó sus servicios a la
                         causa liberal habiendo ingresado como voluntario en las fuerzas
-                        comandadas por el General Pedro Sánchez, en la guerra de los mil
+                        comandadas por el <persName ref="#psz">General Pedro Sánchez</persName>, en la guerra de los mil
                         días. CUARTO: Es verdad y me oconsta por las razones dichas
                         anteriormente que el peticionario terminó la guerra con el grado
-                        de Subteniente por haber caido prisionero en Vetas, Santander y
-                        llevado al Panóptico de Tunja. Igualmente me consta porque lo he
+                        de <roleName type="militar">Subteniente</roleName> por haber caido prisionero en <placeName ref="#vts">Vetas</placeName>, <placeName type="departamento">Santander</placeName> y
+                        llevado al Panóptico de <placeName ref="#tja">Tunja</placeName>. Igualmente me consta porque lo he
                         presenciado que el peticionario después de la campaña ha
-                        permanecido firme a la causa liberal. El señor Fiscal quien presenció esta
+                        permanecido firme a la causa liberal. El señor <roleName type="funcionario">Fiscal</roleName> quien presenció esta
                         declaración repreguntó al testigo así: Por qué afirma Ud que el
                         peticionario obtuvo el grado de Subteniente? Contestó: Porque yo
-                        milité en las mismas fuerzas con el grado de Capitán y por tal
+                        milité en las mismas fuerzas con el grado de <roleName type="militar">Capitán</roleName> y por tal
                         razón me consta el ascenso hecho al peticionario. Leída su
                         declaración al testigo la aprobó y firma. Se cumplió
                         con el Art. 683 del C.J.</p> 
                         <closer>
-                            El Juez, <signed>Marco A. González</signed>
-                            El Fiscal, <signed>Rafael Poveda</signed>
-                            El testigo, <signed>Francisco Forero</signed>
-                            El Secretario <signed>ILEGIBLE</signed>
+                            <signed><persName><roleName type="funcionario">El Juez</roleName>, Marco A. González</persName></signed>
+                            <signed><persName><roleName type="funcionario">El Fiscal</roleName>, Rafael Poveda</persName></signed>
+                            <signed><persName ref="#fcof"><roleName>El testigo</roleName>, Francisco Forero</persName></signed>
+                            <signed><roleName type="funcionario">El Secretario</roleName> ILEGIBLE</signed>
                             <stamp corresp="#juz1supBog">Juzgado 1° Superior de Bogotá</stamp>
                         </closer>
                     </div>
                     <div type="documento" subtype="declaración">
-                        <p>En Bogotá a veinticinco de Mayo de mil novecientos treinta y ocho
-                        se presentó en el despacho del Juzgado el señor Roberto Vargas C
+                        <p>En <placeName ref="#bgta">Bogotá</placeName> a <date when="1938-05-25">veinticinco de Mayo de mil novecientos treinta y ocho</date>
+                        se presentó en el despacho del Juzgado el señor <persName ref="#rvc" role="testigo">Roberto Vargas C</persName>
                         con el fin de rendir la declaración que se le pide. El señor Juez
                         le recibió juramento en forma legal y una vez enterado de las
                         disposiciones sobre testigos falsos prometió decir verdad y expuso:
                         PRIMERO: Soy mayor de edad, vecino de esta Ciudad, mi dirección
                         es Barrio Acevedo Tejada, de Profesión comerciante, no tengo
                         generales con el peticionario señor Alfredo A. Pinzón y soy portador
-                        de la cédula # 2040829 de Bogotá. SEGUNDO: Desde la época de la
+                        de la cédula # 2040829 de <placeName ref="#bgta">Bogotá</placeName>. SEGUNDO: Desde la época de la
                         guerra conozco al peticionario de vista, trato y comunicación.
                         TERCERO: Es verdad y me consta por haberlo presenciado y haber
                         sido compañero de armas del peticionario que este señor prestó
-                        sus servicios a la causa liberal en la querra civil que terminó
+                        sus servicios a la causa liberal en la <name ref="#gmd">guerra civil</name> que terminó
                         en el año de mil novecientos dos. Lo conocí militando en el
-                        Departamento de Santander, en el Batallón Bolívar, cuyo primer Jefe
-                        era el Coronel Manuel V. González por el General Polidoro Ardila,
-                        con el grado de SUBTENIENTE. QUINTO: Es verdad y me consta por
+                        Departamento de <placeName type="departamento">Santander</placeName>, en el <orgName ref="#bon.Bvar">Batallón Bolívar</orgName>, cuyo primer Jefe
+                        era el <persName ref="#mvg">Coronel Manuel V. González</persName> por el <persName ref="#pda">General Polidoro Ardila</persName>,
+                        con el grado de <roleName type="militar">SUBTENIENTE</roleName>. QUINTO: Es verdad y me consta por
                         haberlo presenciado que el peticionario terminó la campaña con
-                        el grado de Subteniente, por haber caído prisionero en Vetas 
-                        Departamento de Santander. SEXTO: Es verdad y me consta por el
+                        el grado de <roleName type="militar">Subteniente</roleName>, por haber caído prisionero en <placeName ref="#vts">Vetas</placeName> 
+                        Departamento de <placeName type="departamento">Santander</placeName>. SEXTO: Es verdad y me consta por el
                         conocimiento que tengo del peticionario que este señor después de la
-                        campaña ha permanecido firme a la causa liberal. El señor Fiscal quien
+                        campaña ha permanecido firme a la causa liberal. El señor <roleName type="funcionario">Fiscal</roleName> quien
                         presenció esta declaración repreguntó al testigo así: Por qué afirma
-                        Ud que el peticionario obtuvo el grado de Subteniente del Batallón
-                        Bolívar?. Contestó: Porque yo era comandante Instructor del mismo
-                        Batallón y así conocí al peticionario y ylo vi actuar. Leída su
+                        Ud que el peticionario obtuvo el grado de <roleName type="militar">Subteniente</roleName> del <orgName ref="#bon.Bvar">Batallón
+                        Bolívar</orgName>?. Contestó: Porque yo era <roleName type="militar">comandante Instructor</roleName> del mismo
+                        Batallón y así conocí al peticionario y y lo vi actuar. Leída su
                         declaración al testigo la aprobó y firma. Se cumplió con el Art. 683
                         del C.J.</p> 
                         <closer>
-                            El Juez, <signed>Marco A. González</signed>
-                            El Fiscal, <signed>Rafael Poveda</signed>
-                            El testigo, <signed>Roberto Vargas C.</signed>
-                            El Secretario <signed>ILEGIBLE</signed>
+                            <signed><persName><roleName type="funcionario">El Juez</roleName>, Marco A. González</persName></signed>
+                            <signed><persName><roleName type="funcionario">El Fiscal</roleName>, Rafael Poveda</persName></signed>
+                            <signed><persName ref="#rvc"><roleName>El testigo</roleName>, Roberto Vargas C</persName>.</signed>
+                            <signed><roleName type="funcionario">El Secretario</roleName> ILEGIBLE</signed>
                             <stamp corresp="#juz1supBog">Juzgado 1° Superior de Bogotá</stamp>
                         </closer>
                     </div>
