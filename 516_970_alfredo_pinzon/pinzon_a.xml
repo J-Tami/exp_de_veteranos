@@ -416,17 +416,17 @@
                     </closer> 
                 </div>
                 <div>
-                    <head>COMISION DEL ESCALAFON DE ANTIGUOS MILITARES</head>
+                    <head><orgName>COMISION DEL ESCALAFON DE ANTIGUOS MILITARES</orgName></head>
                     <head>SECRETARIA</head>
                     <p>
                         Presentado personalmente por el interesado
-                        Sr. Alfredo A. Pinzón con Cédula
-                        N° 1237415 Exped. en Bogotá
+                        Sr. <persName ref="#aap">Alfredo A. Pinzón</persName> con Cédula
+                        N° 1237415 Exped. en <placeName ref="#bgta">Bogotá</placeName>
                         Bogotá 2 de junio de 1938
-                        Repartido al honorable vocal Dr. Rosales 
-                        hoy 1° de semptiembre de 1938
+                        Repartido al honorable vocal <persName>Dr. Rosales</persName> 
+                        hoy <date when="1938-09-01">1° de semptiembre de 1938</date>
                     </p>
-                    <p>El Secretario,</p><signed>ILEGIBLE</signed>
+                    <signed><roleName type="funcionario">El Secretario</roleName>, ILEGIBLE</signed>
                 </div>
                 <div xml:id="t1_1" type="trámite" subtype="tomaDeclaraciones">
                     <div type="solcitud">
@@ -626,11 +626,11 @@
                     </div>
                     <div type="documento" subtype="certificación">
                         <p>El suscrito Juez, Certifica:</p> 
-                        <p>Que en su concepto los testigos Roberto Vargas C, Francisco Forero
-                        y Ezequiel F Corrales son personas hábiles e idóneas para declarar
-                        Bogotá Mayo veintisiete de mil novecientos treinta y ocho.</p> 
+                        <p>Que en su concepto los testigos <persName ref="#rvc">Roberto Vargas C</persName>, <persName ref="#fcof">Francisco Forero</persName>
+                        y <persName ref="#ezc">Ezequiel F Corrales</persName> son personas hábiles e idóneas para declarar</p> 
                         <closer>
-                            <signed>Marco A. González</signed>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName> <date when="1938-05-27">Mayo veintisiete de mil novecientos treinta y ocho</date>.</dateline>
+                            <signed><persName>Marco A. González</persName></signed>
                             <signed>ILEGIBLE</signed>
                             <stamp corresp="#juz1supBog">Juzgado 1° Superior de Bogotá</stamp>
                         </closer>
@@ -639,10 +639,10 @@
                 <div type="trámite" subtype="certificación">
                     <div type="documento" subtype="solicitud">
                         <opener>
-                            <salute>Señor Director del Panóptico de Bogotá,
+                            <salute>Señor Director del Panóptico de <placeName ref="#bgta">Bogotá</placeName>,
                             <abbr>E.S.D.<expan>En su despacho</expan></abbr></salute>
                         </opener>
-                        <p>Yo, Alfredo A. Pinzón, mayor de edad y vecino de
+                        <p>Yo, <persName ref="#aap">Alfredo A. Pinzón</persName>, mayor de edad y vecino de
                         esta Capital, portador de la cédula #1237415, ante
                         Ud. con debido acatamiento solicito se sirva
                         ordenar a quien corresponda, se me expida a mi costa un certificado en que
@@ -653,7 +653,7 @@
                         me sea devuelta, junto con la presente solicitud.</p> 
                         <closer>
                             <salute>Señor Director.</salute>  
-                            <signed>Alfredo A Pinzón</signed> 
+                            <signed><persName ref="#aap">Alfredo A Pinzón</persName></signed> 
                             <dateline>
                                 <placeName>Bogotá</placeName>, 
                                 <date when="1938-04-28">Abril 28 de 1938</date>
@@ -663,7 +663,7 @@
                     <div type="documento" subtype="orden">
                         <opener>
                            <dateline>
-                                <placeName>Bogotá</placeName>, 
+                                <placeName ref="#bgta">Bogotá</placeName>, 
                                 <date when="1938-04-28">abril 28 de 1938</date> 
                            </dateline> 
                         </opener>
@@ -677,15 +677,15 @@
                         <p>EL SUSCRITO SUBDIRECTOR SECRETARIO DE LA PENITENCIARIA CENTRAL
                         CERTIFICA:</p>
                         <p>que en el Libro Radicador de entradas a esta Penitenciaría, de los
-                        presos políticos que por haber militado en la última guerra civil
+                        presos políticos que por haber militado en la última <name ref="#gmd">guerra civil</name>
                         estuvieron detenidos en este establecimiento, se encuentra la
                         siguiente constancia en el folio 69, en relación con el memorialista:
-                        "Mayo 23 de 1901.- En esta fecha fue dado de alta en la
-                        Penitenciaría Central como preso político ALFREDO A. PINZON, quien fue dado
-                        de baja el día 19 de agosto del mismo año, por orden del Jefe
+                        "<date when="1901-05-23">Mayo 23 de 1901</date>.- En esta fecha fue dado de alta en la
+                        Penitenciaría Central como preso político <persName ref="#aap">ALFREDO A. PINZON</persName>, quien fue dado
+                        de baja el día <date when="1901-08-19">19 de agosto</date> del mismo año, por orden del Jefe
                         Civil y Militar del Departamento".</p> 
                         <closer>
-                            Expedido en <dateline><placeName>Bogotá</placeName>, a <date when="1938-04-29">29 de abril de 1938</date>.</dateline> 
+                            Expedido en <dateline><placeName ref="#bgta">Bogotá</placeName>, a <date when="1938-04-29">29 de abril de 1938</date>.</dateline> 
                             <signed>Eduardo Mejía</signed>
                             <stamp corresp="#centralBog">Penitenciaría Central. Subdirección</stamp>
                         </closer>
@@ -694,23 +694,23 @@
                 <div type="documento" subtype="certificado">
                     <head>REPUBLICA DE COLOMBIA</head> 
                     <head>JEFATURA CIVIL Y MILITAR
-                    DEL DEPARTAMENTO DE BOYACÁ</head> 
+                    DEL DEPARTAMENTO DE <placeName type="departamento">BOYACÁ</placeName></head> 
                     <head>SECRETARIA DE GOBIERNO</head> 
                     <!-- <p>NUMERO 1195</p>-->
                     <opener>
-                        <dateline><placeName>Tunja</placeName><date when="1900-10-25">25 de octubre de 1900</date></dateline> 
-                        Señor Secretario de Gobierno 
-                        de Cundinamarca
-                        Bogotá
+                        <dateline><placeName ref="#tja">Tunja</placeName><date when="1900-10-25">25 de octubre de 1900</date></dateline> 
+                        <salute>Señor Secretario de Gobierno 
+                        de <placeName type="departamento">Cundinamarca</placeName>
+                        <placeName ref="#bgta">Bogotá</placeName></salute>
                     </opener>
                     <p>Por su honorable conducta
                     tenga el honor de comunicar al Señor
-                    Jefe Cicil y Militar de ese Departamento
+                    Jefe Civil y Militar de ese Departamento
                     que en virtud de haber prestado
-                    fianza en esa Ciudad el Señor Jesus Pinzón
-                    G. por la cual se compromete a
-                    responder por su hijo Alfredo A. Pinzón
-                    prisionero de Guerra en "Vetas" a que se
+                    fianza en esa Ciudad el Señor <persName ref="#jsp">Jesus Pinzón
+                    G</persName>. por la cual se compromete a
+                    responder por su hijo <persName ref="#aap">Alfredo A. Pinzón</persName>
+                    prisionero de Guerra en "<placeName ref="#vts">Vetas</placeName>" a que se
                     presente en ese despacho para lo que
                     disponga el Señor Jefe  Civil y Militar, se
                     ha puesto en libertad.</p>
@@ -720,47 +720,47 @@
                     </closer>
                 </div>
                 <div>
-                    <head>BREVE RELATO DE LOS SERVICIOS PRESTADOS POR ALFREDO A. PINZON
-                        AL PARTIDO LIBERAL EN LA GUERRA DE LOS MIL DIAS.</head>
+                    <head>BREVE RELATO DE LOS SERVICIOS PRESTADOS POR <persName ref="#aap">ALFREDO A. PINZON</persName>
+                        AL <orgName>PARTIDO LIBERAL</orgName> EN <name ref="#gmd">LA GUERRA DE LOS MIL DIAS</name>.</head>
                     <p>
-                        El 18 de octubre de 1899 en el tren de la Sabana y a las 9 de
-                        la mañana, salí de Bogotá con Eustacio Pinzón, primo hermano mío, y
+                        El <date when="1899-10-18">18 de octubre de 1899</date> en el tren de la Sabana y a las 9 de
+                        la mañana, salí de <placeName ref="#bgta">Bogotá</placeName> con <persName type="familiar" corresp="#aap">Eustacio Pinzón</persName>, primo hermano mío, y
                         varios amigos y copartidarios. Esta expedición la encabezaba el señor
-                        Fermín Hernández.
+                        <persName>Fermín Hernández</persName>.
                     </p>
                     <p> 
-                        El tren nos condujo hasta Serrezuela (hoy Madrid) donde nos
-                        desmontamos y pasando por Subachoque tomamos la vía de la ferrería de La
-                        Pradera a donde llegamos ese mismo día por la tarde; de allí seguimos
-                        para La Platea, hacienda de los señores Quinteros, de donde se sacaron unas
+                        El tren nos condujo hasta <placeName ref="#srrla">Serrezuela</placeName> (hoy Madrid) donde nos
+                        desmontamos y pasando por <placeName ref="#sbque">Subachoque</placeName> tomamos la vía de la ferrería de <placeName ref="#lpdra">La
+                        Pradera</placeName> a donde llegamos ese mismo día por la tarde; de allí seguimos
+                        para <placeName type="hacienda">La Platea</placeName>, hacienda de los señores Quinteros, de donde se sacaron unas
                         armas que estaban enterradas. Armados una parte de los expedicionarios,
                         nos organizamos militarmente, y quedó formando un batallón con el nombre
-                        de "Primero de Bogotá" y designado como primer jefe de él al Coronel
-                        Primitvo Quintero.
+                        de "<orgName ref="#bon1.Bgta">Primero de Bogotá</orgName>" y designado como primer jefe de él al Coronel
+                        <persName ref="#pvoq">Primitvo Quintero</persName>.
                     </p>
                     <p>
-                        De esta hacienda nos volvimos para la población de La Pradera,
-                        allí se dio el grito de rebelión y seguimos para Pacho, donde permanecimos
-                        poco tiempo y continuamos la marcha para Ubaté; en este último lugar nos
+                        De esta hacienda nos volvimos para la población de <placeName ref="#lpdra" type="gritoDeRebelión">La Pradera</placeName>,
+                        allí se dio el grito de rebelión y seguimos para <placeName ref="#pch">Pacho</placeName>, donde permanecimos
+                        poco tiempo y continuamos la marcha para <placeName ref="#ubt">Ubaté</placeName>; en este último lugar nos
                         detuvimos varios días, esperando se nos unieran los revolucionarios de
                         todas las poblaciones vecinas.
                     </p>
                     <p>
                         Habiendo ya un número suficiente para llamarse ejército
-                        revolucionario, pes ya habían ingresado a las filas el General Pedro Sánchez,
-                        con las fuerzas que traía de Zipaquirá, el Dr. Hipólito Montaña y muchos
-                        otros jefes y subalternos, marchamos hacia el Norte pasando por Simijaca y
-                        Chiquinquirá, donde no se nos permitió ni desformarnos porque las fuerzas
+                        revolucionario, pues ya habían ingresado a las filas el General <persName ref="#pds">Pedro Sánchez</persName>,
+                        con las fuerzas que traía de <placeName ref="#zpqr">Zipaquirá</placeName>, el Dr. <persName>Hipólito Montaña</persName> y muchos
+                        otros jefes y subalternos, marchamos hacia el Norte pasando por <placeName ref="#smja">Simijaca</placeName> y
+                        <placeName ref="#chqra">Chiquinquirá</placeName>, donde no se nos permitió ni desformarnos porque las fuerzas
                         del Gobierno estaban próximas a alcanzarnos; seguimos la marcha por el
-                        Socorro, San Gil, Pinchote, Miraflores, y el puente del Sube, el cual tan
+                        <placeName ref="#sco">Socorro</placeName>, <placeName ref="#sgn">San Gil</placeName>, <placeName ref="#pcht">Pinchote</placeName>, <placeName>Miraflores</placeName>, y el puente del Sube, el cual tan
                         pronto acabó de pasar el ejército lo desbarataron para así evitar ser
                         alcanzados por las fuerzas de los conservadores.
                     </p>
                     <p>
-                        Continuamos la marcha hacia arriba, hasta llegar a La Mesa de
-                        los Santos, el 7 de noviembre , donde nos unimos al General Uribe, que
-                        estaba en un punto denominado La Lajita, y allí fue dado a reconocer como
-                        comandante General de estas fuerzas. De aquí marchamos hacia Piedecuesta
+                        Continuamos la marcha hacia arriba, hasta llegar a <placeName ref="#lmstos">La Mesa de
+                        los Santos</placeName>, <date when="1899-11-07">el 7 de noviembre</date> , donde nos unimos al <persName ref="#rfuu">General Uribe</persName>, que
+                        estaba en un punto denominado <placeName>La Lajita</placeName>, y allí fue dado a reconocer como
+                        <roleName corresp="#rfuu">comandante General</roleName> de estas fuerzas. De aquí marchamos hacia <placeName ref="#pdcta">Piedecuesta</placeName>
                         y antes de llegar a la población hicimos alto, el resto de este día lo
                         empleamos en limpiar y revisar las armas para atacar al día siguiente dicha
                         población.
@@ -769,21 +769,21 @@
                         Este mismo día, por la noche nos dieron instrucciones ordenándonos
                         llevar como señas distintivas una rama verde en el sombrero, una manga
                         del pantalón arremangada y como señal de campo o santo y seña las palabras:
-                        Villar-Neira. Aclarando el día siguiente marchamos hacia la población,
+                        Villar-Neira. Aclarando el <date when="1899-11-08">día siguiente</date> marchamos hacia la población,
                         guardando distancias y con el rifle en balanza, así avanzamos hasta llegar
                         a las goteras del pueblo, sin que el enemigo diera muestras de oponerse a
                         nuestro avance, pero pronto corrió la voz en nuestras filas de que el
                         enemigo había abandonado la población, dejando sus toldas para que no nos
-                        diéramos cuenta de su retirada a Bucaramanga.
+                        diéramos cuenta de su retirada a <placeName ref="#bga">Bucaramanga</placeName>.
                     </p>
                     <p>
-                        Continuamos esta marcha hasta la Florida donde hicimos alto
+                        Continuamos esta marcha hasta <placeName>la Florida</placeName> donde hicimos alto
                         hasta el día siguiente en que recibimos orden de marchar a paso de trote
-                        hacia Bucaramanga, porque estaban peleando, pues el Coronel Matiz y el
-                        Coronel Arango, -uno de estos jefe de un escuadrón de caballería- habían
+                        hacia <placeName ref="#bga" type="campoDeBatalla" corresp="#btllaBga">Bucaramanga</placeName>, porque estaban peleando, pues el <persName><roleName type="militar">Coronel</roleName> Matiz</persName> y el
+                        <persName><roleName type="militar">Coronel</roleName> Arango</persName>, -uno de estos jefe de un escuadrón de caballería- habían
                         comprometido el combate, sin haber recibido orden de atacar. Muy cerca ya de
-                        Bucaramanga recibimos nueva orden de acelerar la marcha porque el enemigo
-                        iba en retirada por el camino de Pamplona, y debíamos ir a cortársela.
+                        <placeName ref="#bga">Bucaramanga</placeName> recibimos nueva orden de acelerar la marcha porque el enemigo
+                        iba en retirada por el camino de <placeName ref="#pmpla">Pamplona</placeName>, y debíamos ir a cortársela.
                         Llegado que hubimos al punto que nos ordenaron, no había tal enemigo en
                         retirada. Allí, a lo que íbamos era a atajar las balas de los conservadores
                         que atrincherados en la ciudad, en las torres, en las casas, en los
@@ -791,8 +791,8 @@
                         impunemente contra nosotros.
                     </p>
                     <p>
-                        Allí me tocó combatir al lado del Capitán de mi compañía, Sr. 
-                        Vicente Gómez. En este camino combatimos el resto de este día, siendo muy
+                        Allí me tocó combatir al lado del <roleName type="militar" corresp="#vctg">Capitán</roleName> de mi compañía, Sr. 
+                        <persName xml:id="vctg">Vicente Gómez</persName>. En este camino combatimos el resto de este día, siendo muy
                         poco lo que pudimos avanzar hacia la ciudad. Llegada la noche recibimos
                         orden de no abandonar este punto, y permanecer en guardia toda la noche
                         porque se temía un ataque del enemigo por este camino.
@@ -800,16 +800,16 @@
                     <p>
                         Así pasamos toda la noche y al día siguiente no recibiendo
                         nuevas órdenes, resolvimos retirarnos algunos a buscar algún jefe que nos
-                        indicara que debíamos hacer. Estábamos ya cerca del camino de Tona cuando
-                        Pasó a caballo el General Uribe, quien nos ordenó nos retiraramos a Tona,
+                        indicara que debíamos hacer. Estábamos ya cerca del camino de <placeName ref="#tna">Tona</placeName> cuando
+                        Pasó a caballo el <persName ref="#rfuu">General Uribe</persName>, quien nos ordenó nos retiraramos a <placeName ref="#tna">Tona</placeName>,
                         así lo hicimos y ese mismo día llegamos a ese pueblo. Pero allí también
                         quedamos desorientatos porque no sabíamos qué debíamos hacer. Ahí nos
                         quedamos esa noche, y al día siguiente no habiendo quién diera órdenes ni a
-                        quién pedírselas, y teniendo noticia de que el General Rosario Díaz estaba
-                        todavía peleando en Bucaramanga con su guerrilla, resolvimos vovlernos
-                        para esa ciudad; cerca ya, en un punto que se llama el Alto del Gualilo, y
+                        quién pedírselas, y teniendo noticia de que el <persName><roleName type="militar">General</roleName> Rosario Díaz</persName> estaba
+                        todavía peleando en <placeName ref="#bga">Bucaramanga</placeName> con su <orgName type="militar" subtype="guerrilla">guerrilla</orgName>, resolvimos vovlernos
+                        para esa ciudad; cerca ya, en un punto que se llama el <placeName>Alto del Gualilo</placeName>, y
                         desde donde se domina toda la ciudad, nos situamos y prendimos una hoguera
-                        pero tan pronto como las fuerzas del Gobierno nos divisaron y vieron la 
+                        pero tan pronto como las fuerzas del <orgName>Gobierno</orgName> nos divisaron y vieron la 
                         hoguera y una bandera roja que habíamos enarbolado, mandaron contra nosotros
                         un batallón, el cual resolvimos no esperar sino bajarnos otra vez al
                         camino de Tona.
@@ -817,12 +817,12 @@
                     <p>
                         En este desconcierto y con tal incertidumbre no faltó quien
                         dijera que cada cual se salvara como pudiera. Estando resolviendo qué
-                        podríamos hacer, llegó hasta donde nosotros en enviado del General Justo L.
-                        Durán, que estaba con sus fuerzas en Rionegro, y nos dijo que los que
-                        quisieramos irnos para Rionegro a ingresar a las fuerzas del General Durán
+                        podríamos hacer, llegó hasta donde nosotros en enviado del <persName><roleName type="militar">General</roleName> Justo L.
+                        Durán</persName>, que estaba con sus fuerzas en <placeName ref="#rngo">Rionegro</placeName>, y nos dijo que los que
+                        quisieramos irnos para <placeName ref="#rngo">Rionegro</placeName> a ingresar a las fuerzas del <persName><roleName type="militar">General</roleName> Durán</persName>
                         podíamos seguir con él. Esta propuesta no nos la hicimos repetir, y todos
                         los que allí estábamos emprendimos camino; recuerdo que con nosotros iba
-                        el entonces Capitán Tomás Lawson, el Teniente Francisco Forero y muchos otros
+                        el entonces <persName><roleName type="militar">Capitán</roleName> Tomás Lawson</persName>, el <persName><roleName type="militar">Teniente</roleName> Francisco Forero</persName> y muchos otros
                         que sería largo enumerar.
                     </p>
                     <p>
@@ -831,12 +831,12 @@
                         breve.
                     </p>
                     <p>
-                        En Rionegro nos dieron algunos auxilios y seguimos en el
-                        ejército del General Durán hasta Cúcuta, de aquí marchamos hacia Tasajeros,
+                        En <placeName ref="#rngo">Rionegro</placeName> nos dieron algunos auxilios y seguimos en el
+                        ejército del <persName><roleName type="militar">General</roleName> Durán</persName> hasta <placeName ref="#ccta">Cúcuta</placeName>, de aquí marchamos hacia <placeName type="campamento">Tasajeros</placeName>,
                         donde acampamos por unos días, luego marchamos por una trocha que había
-                        en la montaña llamada de La Arenosa en dirección al puente de La Laja,
-                        sobre el río Peralonso; faltando ya poco camino para llegar al puente, la
-                        vanguardia de nuestro ejército tropezó con las fuerzas del Gobierno que
+                        en la montaña llamada de <placeName><geogName type="montaña">La Arenosa</geogName></placeName> en dirección al <placeName>puente de La Laja</placeName>,
+                        sobre el <placeName ref="#rplso" type="campoDeBatalla" corresp="#batPso">río Peralonso</placeName>; faltando ya poco camino para llegar al puente, la
+                        vanguardia de nuestro ejército tropezó con las fuerzas del <orgName>Gobierno</orgName> que
                         estaban atrincheradas en el puente y en ambas márgenes del río y pricipió el
                         combate.
                     </p>
@@ -844,28 +844,28 @@
                         En poco tiempo el enemigo fue desalojado de las trincheras que ocupaba en la
                         margen del río por donde nosotros bajamos y obligado a pasar el puente; en
                         estas posiciones continuó la batalla hasta el día siguiente por la tarde a la
-                        hora en el que el General Uribe y sus compañeros pasaron el puente de La Laja, y
-                        tras de ellos el ejército. Esta carga tan violenta decidió la batalla
+                        hora en el que el <persName ref="#rfuu">General Uribe</persName> y sus compañeros pasaron el puente de La Laja, y
+                        tras de ellos el ejército. Esta carga tan violenta decidió la <name ref="#batPso">batalla</name>
                         declarándose el enemigo en completa derrota.
                     </p>
                     <p>
-                        Esta batalla se efectuó el 15 y el 16 de diciembre, el 17 emprendimos
-                        marcha hacia Cúcuta conduciendo los prisioneros, los cuales tratamos no
+                        Esta batalla se efectuó el <date from="1899-12-15" to="1899-12-16" corresp="#batPso">15 y el 16 de diciembre</date>, el 17 emprendimos
+                        marcha hacia <placeName ref="#ccta">Cúcuta</placeName> conduciendo los prisioneros, los cuales tratamos no
                         como a enemigos sino como a compañeros.
                     </p>
                     <p>
-                        En Cúcuta me incorporé en el batallón Bolívar, por haber en este 
-                        cuerpo muchos de los compañeros que salieron conmigo de Bogotá. El Coronel
-                        Manuel V. González, primer jefe de este batallón me dio el grado de subteiente
-                        y me distinó a la tercera compañía; siendo segundo jefe de este cuerpo el
-                        Coronel Pablo Márquez.
+                        En <placeName ref="#ccta">Cúcuta</placeName> me incorporé en el <orgName ref="#bon.Bvar">batallón Bolívar</orgName>, por haber en este 
+                        cuerpo muchos de los compañeros que salieron conmigo de <placeName ref="#bgta">Bogotá</placeName>. <persName ref="#mvg">El Coronel
+                        Manuel V. González</persName>, primer jefe de este batallón me dio el grado de <roleName type="militar">subteiente</roleName>
+                        y me distinó a la <orgName ref="#cia3BonBvar">tercera compañía</orgName>; siendo segundo jefe de este cuerpo el
+                        <persName><roleName type="militar">Coronel</roleName> Pablo Márquez</persName>.
                     </p>
                     <p>
-                        De Cúcuta emprendimos marcha a Pamplona y allí fue dado a reconocer
-                        el general Vargas Santos como Jefe Supremo de la guerra y Presidente Provisional
-                        de Colombia. De aquí continuamos la marcha a Bucaramanga, en esta ciudad
-                        permanecimos varios días y nos dirijimos a Boyacá, por la via de García Rovira
-                        cuando viniendo ya cerca del pueblo de Guaca recibimos orden de contramarchar.
+                        De <placeName ref="#ccta">Cúcuta</placeName> emprendimos marcha a <placeName ref="#pmpla">Pamplona</placeName> y allí fue dado a reconocer
+                        el <persName xml:id="vgss"><roleName type="militar">general</roleName> Vargas Santos</persName> como Jefe Supremo de la guerra y <roleName corresp="#vgss">Presidente Provisional
+                        de Colombia.</roleName> De aquí continuamos la marcha a <placeName ref="#bga">Bucaramanga</placeName>, en esta ciudad
+                        permanecimos varios días y nos dirijimos a <placeName type="departamento">Boyacá</placeName>, por la via de García Rovira
+                        cuando viniendo ya cerca del pueblo de <placeName ref="#gca">Guaca</placeName> recibimos orden de contramarchar.
                     </p>
                     <p>
                         Emprendimos el regreso hacia el Norte pero en dirección a Gramalote
