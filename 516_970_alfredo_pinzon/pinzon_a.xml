@@ -352,6 +352,41 @@
                     <trait type="resultado"><desc>Victoria Liberal</desc></trait>
                 </desc>
             </event>
+            <event xml:id="batGmlt" type="batalla">
+                <desc>
+                    <name>Combate de Gramalote</name>
+                    <date when="1900-02-02"/>
+                    <placeName ref="#gmlt">Gramalote</placeName>
+                    <desc type="fuerzasEnfrentadas">Fuerzas:
+                        <orgName>Partido Liberal</orgName> 
+                        <orgName>Gobierno</orgName>
+                    </desc>
+                    <trait type="resultado"><desc>Victoria Liberal</desc></trait>
+                </desc>
+            </event>
+            <event xml:id="batTrda" type="batalla">
+                <desc>
+                    <name>Combate de La Tronadora</name>
+                    <placeName>La Tronadora</placeName>
+                    <desc type="fuerzasEnfrentadas">Fuerzas:
+                        <orgName>Partido Liberal</orgName> 
+                        <orgName>Gobierno</orgName>
+                    </desc>
+                    <trait type="resultado"><desc>Victoria Liberal</desc></trait>
+                </desc>
+            </event>
+            <event xml:id="batVts" type="batalla">
+                <desc>
+                    <name>Combate de Vetas</name>
+                    <date when="1900-05-03"/>
+                    <placeName ref="#vts">Vetas</placeName>
+                    <desc type="fuerzasEnfrentadas">Fuerzas:
+                        <orgName>Partido Liberal</orgName> 
+                        <orgName>Gobierno</orgName>
+                    </desc>
+                    <trait type="resultado"><desc>Victoria Conservadora</desc></trait>
+                </desc>
+            </event>
         </listEvent>
     </standOff>
 
@@ -868,51 +903,51 @@
                         cuando viniendo ya cerca del pueblo de <placeName ref="#gca">Guaca</placeName> recibimos orden de contramarchar.
                     </p>
                     <p>
-                        Emprendimos el regreso hacia el Norte pero en dirección a Gramalote
+                        Emprendimos el regreso hacia el Norte pero en dirección a <placeName ref="#gmlt" type="campoDeBatalla" corresp="#batGmlt">Gramalote</placeName>
                         y a corta distancia de esta población acampamos el 1o de febrero de 1900. La
                         noche la pasamos en el camino con orden de no encender luz ni hacer ruido de
                         ninguna especie. Al día siguiente por la mañana la población fue atacada 
                         simultáneamente por varios puntos y como al medio día estaba en nuestro poder. En
-                        seguida el general Uribe se dirigió con su estado mayor y algunos otros 
+                        seguida el <persName ref="#rfuu">general Uribe</persName> se dirigió con su estado mayor y algunos otros 
                         compañeros a la casa de Teran, donde estaba Domínguez, jefe del ejército conservador
                         y lo hizo prisionero, exigiéndole la rendición del resto del ejército.
                     </p>
                     <p>
-                        De Gramalote volvimos nuevamente a Cúcuta conduciendo a los prisioneros,
+                        De <placeName ref="#gmlt">Gramalote</placeName> volvimos nuevamente a <placeName ref="#ccta">Cúcuta</placeName> conduciendo a los prisioneros,
                         quienes eran prontamente puestos en libertad.
                     </p>
                     <p>
-                        De Cúcuta marchamos hasta cerca de Pamplona, donde permanecimos como
+                        De <placeName ref="#ccta">Cúcuta</placeName> marchamos hasta cerca de <placeName ref="#pmpla">Pamplona</placeName>, donde permanecimos como
                         dos meses ocupando varios campamentos entre los cuales recuerdo los siguientes:
-                        Balconcitos, Terebinto, Lambederos y el Diamante, este fue el último campamento
-                        que tuvimos en los meses que permanecimos cerca de Pamplona y Chopo. De allí
-                        marchamos hacia Bucaramanga por la vía de Suratá. Antes de llegar a esta
-                        ciudad parte un camino que pasa por el boquerón de La Tronadora y por el pueblo de
-                        Vetas y va a terminar en el páramo de San Turban.
+                        <placeName type="campamento">Balconcitos</placeName>, <placeName type="campamento">Terebinto</placeName>, <placeName type="campamento">Lambederos</placeName> y <placeName type="campamento">el Diamante</placeName>, este fue el último campamento
+                        que tuvimos en los meses que permanecimos cerca de <placeName ref="#pmpla">Pamplona</placeName> y <placeName ref="#chp">Chopo</placeName>. De allí
+                        marchamos hacia <placeName ref="#bga">Bucaramanga</placeName> por la vía de <placeName ref="#srta">Suratá</placeName>. Antes de llegar a esta
+                        ciudad parte un camino que pasa por el <placeName>boquerón de La Tronadora</placeName> y por el pueblo de
+                        <placeName ref="#vts">Vetas</placeName> y va a terminar en el páramo de <placeName xml:id="prms" type="páramo"><geogName>San Turban</geogName></placeName>.
                     </p>
                     <p>
-                        Como el batallón Bolívar había traído la vanguardia en todas estas
-                        marchas, recibimos orden de subir a Vetas e inspeccionar el páramo, pues se
-                        sabía que el ejército del Gobierno también había marchado hacia Bucaramanga
+                        Como el <orgName ref="#bon.Bvar">batallón Bolívar</orgName> había traído la vanguardia en todas estas
+                        marchas, recibimos orden de subir a <placeName ref="#vts">Vetas</placeName> e inspeccionar el páramo, pues se
+                        sabía que el ejército del Gobierno también había marchado hacia <placeName ref="#bga">Bucaramanga</placeName>
                         pasando por el páramo.
                     </p>
                     <p>
-                        Al llegar nosotros al boquerón de La Tronadora, fuimos atacados
-                        por una guerrilla que estaba allí atrincherada y que fue derrotada en poco
-                        tiempo. Despejado el camino, continuamos la marcha hasta Vetas, a donde
-                        llegamos el 2 de mayo de 1900. Allí acampamos e inmediatamente salió una
-                        comitiva a inspeccionar el páramo, la cual regresó a poco tiempo, pues habían
+                        Al llegar nosotros al <placeName type="campoDeBatalla" corresp="#batTrda">boquerón de La Tronadora</placeName>, fuimos atacados
+                        por una <orgName type="militar" subtype="guerrilla">guerrilla</orgName> que estaba allí atrincherada y que fue derrotada en poco
+                        tiempo. Despejado el camino, continuamos la marcha hasta <placeName ref="#vts" type="campamento">Vetas</placeName>, a donde
+                        llegamos el <date when="1900-05-02">2 de mayo de 1900</date>. Allí acampamos e inmediatamente salió una
+                        comitiva a inspeccionar el <geogName ref="#prms">páramo</geogName>, la cual regresó a poco tiempo, pues habían
                         visto que el enemigo estaba pasando a considerable distancia. En vista de esto
-                        el General Manuel V. González, quien ya no era primer jefe del batallón 
-                        Bolívar porque lo habían ascendido a Jefe de Estado Mayor, y en su lugar habían
-                        nombrado al Coronel Marcos Cáceres y como segundo jefe continuó el Coronel
-                        Pablo Márquez,- resolvió que nos quedáramos esa noche en Vetas. Al día 
-                        siguiente temprano el Coronel González ordenó que montaran a caballo algunos
-                        oficiales para salir nuevamente al páramo a inspeccionar el enemigo y en
+                        el General <persName ref="#mvg">Manuel V. González</persName>, quien ya no era primer jefe del <orgName ref="#bon.Bvar">batallón 
+                        Bolívar</orgName> porque lo habían ascendido a Jefe de Estado Mayor, y en su lugar habían
+                        nombrado al <persName><roleName type="militar">Coronel</roleName> Marcos Cáceres</persName> y como segundo jefe continuó el <persName><roleName type="militar">Coronel</roleName>
+                        Pablo Márquez</persName>,- resolvió que nos quedáramos esa noche en <placeName ref="#vts" type="campoDeBatalla" corresp="#batVts">Vetas</placeName>. Al día 
+                        siguiente temprano el <persName ref="#mvg">Coronel González</persName> ordenó que montaran a caballo algunos
+                        oficiales para salir nuevamente al <geogName ref="#prms">páramo</geogName> a inspeccionar el enemigo y en
                         seguida volvernos a coger el camino de Suratá. Habría andado esta comitiva unas
                         dos o tres cuadras del pueblo cuando tropezó repentinamente con la vanguardia
-                        del batallón Bolívar, de las fuerzas del Gobierno quienes hicieron su primera
-                        descarga sobre la comitiva liberal cuando el Coronel González sacó su espada
+                        del <orgName ref="#bon.BvarGbno">batallón Bolívar</orgName>, de las fuerzas del Gobierno quienes hicieron su primera
+                        descarga sobre la comitiva liberal cuando el <persName ref="#mvg">Coronel González</persName> sacó su espada
                         y les intimó rendición.
                     </p>
                     <p>
@@ -924,8 +959,8 @@
                         paralela al camino por donde habíamos subido; pero para llegar a esta
                         quebrada había que atravesar un llano, quedando por lo tanto al descubiero. Esta
                         retirada la emprendimos guardando distancias, como unos seis, pero siempre
-                        fueron blanco de los tiros de los soldados Salomón Garzón, quien quedó muerto,
-                        Nicolás Gómez y un sargento Rivera heridos, pero estos dos últimos aun cuando
+                        fueron blanco de los tiros de los soldados <persName>Salomón Garzón</persName>, quien quedó muerto,
+                        <persName>Nicolás Gómez</persName> y un <persName><roleName type="militar">sargento</roleName> Rivera</persName> heridos, pero estos dos últimos aun cuando
                         heridos se botaron con nosotros hasta llegar la fondo de la quebrada, donde
                         tuve que cortarles palos para que se apoyaran porque ambos habían sido
                         heridos en las piernas.
@@ -942,54 +977,54 @@
                         Estando ya en el camino nos desarmaron y nos despojaron de cuanto
                         teníamos, pues hasta los sombreros nos los quitaron y nos hicieron seguir
                         al páramo; por el camino encontramos otros compañeros que habían caído
-                        prisioneros, entre los cuales estaban el Coronel Márquez y Manuel Benavides, hijo
-                        del alférez Clodomiro Benavides, quien quedó muerto en una de las esquinas
+                        prisioneros, entre los cuales estaban el <persName><roleName type="militar">Coronel</roleName>Márquez</persName> y <persName>Manuel Benavides</persName>, hijo
+                        del <persName><roleName type="militar">alférez</roleName> Clodomiro Benavides</persName>, quien quedó muerto en una de las esquinas
                         del pueblo.
                     </p>
                     <p>
-                        De los muertos que vi recuerdo al Coronel Manuel V. González,
-                        Coronel Marcos Cáceres, Capitán Adán Delgado, Subteniente Clodomiro Benavides
-                        y Salomón Garzón, este último no recuerdo qué grado tenía.
+                        De los muertos que vi recuerdo al <persName ref="#mvg">Coronel Manuel V. González</persName>,
+                        <persName><roleName type="militar">Coronel</roleName> Marcos Cáceres</persName>, <persName><roleName type="militar">Capitán</roleName> Adán Delgado</persName>, <persName><roleName type="militar">Subteniente</roleName> Clodomiro Benavides</persName>
+                        y <persName>Salomón Garzón</persName>, este último no recuerdo qué grado tenía.
                     </p>
                     <p>
-                        En el páramo nos tuvieron dos días con sus noches a la intemperie
-                        y sin sombrero, al cabo de los cuales nos bajaron a Vetas y de aquí a
-                        Bucaramanga, donde nos llevaron a la cárcel. En dicha ciudad tuvimos que salir
+                        En el <geogName ref="#prms">páramo</geogName> nos tuvieron dos días con sus noches a la intemperie
+                        y sin sombrero, al cabo de los cuales nos bajaron a <placeName ref="#vts">Vetas</placeName> y de aquí a
+                        <placeName ref="#bga">Bucaramanga</placeName>, donde nos llevaron a la cárcel. En dicha ciudad tuvimos que salir
                         varios días a desherbar las calles para ganar con qué mantenernos, pues lo
                         único que nos ofreció el alcalde un día que fue a la cárcel y le manifestamos
-                        que era verdad que éramos presos políticos ero que no era justo que nos
+                        que era verdad que éramos presos políticos pero que no era justo que nos
                         dejaran morir de hambre al no darnos ración de ninguna clase, fueron unos
                         barriles de agua que llevaban en burros cada tercer día.
                     </p>
                     <p>
                         Como a los tres meses de estar en esta cárcel y en la de
-                        Piedecuesta nos trajeron a Tunja y nos recluyeron en la Penitenciaría. De allí
+                        <placeName ref="#pdcta">Piedecuesta</placeName> nos trajeron a <placeName ref="#tja">Tunja</placeName> y nos recluyeron en la Penitenciaría. De allí
                         pude mandar razón a mi familia avisándoles donde me hallaba y después de
-                        muchas diligencias lograron que me pusieran en libertad el 25 de octubre de
-                        1900 quedando mi padre, Jesús Pinzón G. como fiador, y con la promesa de
-                        presentarme ante el jefe Civil y Militar de Bogotá dentro del término de ocho
+                        muchas diligencias lograron que me pusieran en libertad el <date when="1900-10-25">25 de octubre de
+                        1900</date> quedando mi padre, <persName ref="#jsp">Jesús Pinzón G</persName>. como fiador, y con la promesa de
+                        presentarme ante el <roleName type="funcionario">jefe Civil y Militar de <placeName ref="#bgta">Bogotá</placeName></roleName> dentro del término de ocho
                         días a más tardar.
                     </p>
                     <p>
                         Antes de ponerme en libertad me dieron una nota que debía entregar
-                        al Jefe Civil y Militar de Bogotá el día que me presentara. Al tercer día de
-                        haber salido de la cárcel emprendí camino para Bogotá, pero al llegar aquí
+                        al <roleName type="funcionario">Jefe Civil y Militar de <placeName ref="#bgta">Bogotá</placeName></roleName> el día que me presentara. Al tercer día de
+                        haber salido de la cárcel emprendí camino para <placeName ref="#bgta">Bogotá</placeName>, pero al llegar aquí
                         tuve conocimiento de que todos los confinados a esta ciudad estaban siendo
                         puestos presos de nuevo. En vista de esto resolví no presentarme y mucho menos
-                        entregar la nota que me dieron en Tunja, la cual por casualidad he conservado
+                        entregar la nota que me dieron en <placeName ref="#tja">Tunja</placeName>, la cual por casualidad he conservado
                         en mi poder y me complazco en presentar a esa Honorable Junta.
                     </p>
                     <p>
-                        En Bogotá permanecí algún tiempo y me volví a ir en otra expedición
-                        que salió de Zipaquirá por conducto de los Señores Wiesner, de esa ciudad;
+                        En <placeName ref="#bgta">Bogotá</placeName> permanecí algún tiempo y me volví a ir en otra expedición
+                        que salió de <placeName ref="#zpqr">Zipaquirá</placeName> por conducto de los Señores Wiesner, de esa ciudad;
                         dichos señores nos dieron un práctco o baquiano que debía llevarnos al
                         campamento liberal, pero este baquiano nos hizo andar mucho sin encontrarnos
                         en ninguna parte fuerzas liberales.
                     </p>
                     <p>
-                        Al regresarons para Zipaquirá fuimos apresados en Cogua y remitidos
-                        a Zipaquirá y de allí al panóptico de Bogotá, de donde no pude salir sino
-                        mediante nueva fianza prestada por el señor Aristides Lozano, y con la obligación
+                        Al regresarons para <placeName ref="#zpqr">Zipaquirá</placeName> fuimos apresados en <placeName ref="#cga">Cogua</placeName> y remitidos
+                        a <placeName ref="#zpqr">Zipaquirá</placeName> y de allí al <orgName>panóptico de <placeName ref="#bgta">Bogotá</placeName></orgName>, de donde no pude salir sino
+                        mediante nueva fianza prestada por el señor <persName>Aristides Lozano</persName>, y con la obligación
                         de presentarme cada tercer día a la Gobernación. 
                     </p>
                     <p>
@@ -1001,27 +1036,27 @@
                         memoriales que yo mismo enviaba desde la prisión.
                     </p>
                     <p>
-                        De las dos veces que me tuvieron preso en Bogotá creo que haya 
+                        De las dos veces que me tuvieron preso en <placeName ref="#bgta">Bogotá</placeName> creo que haya 
                         constancia en los archivos del Panóptico.
                     </p>
                     <div>
                         <head>RESUMEN DE MI INTERVENCION EN LA GUERRA DE LOS MIL DIAS.</head>
                         <list>
-                            <item>6 1/2 meses de campaña en Santander.</item>
-                            <item>1 mes de campaña en Cundinamarca.</item>
-                            <item>5 1/2 de prisión entre Vetas y Tunja.</item>
-                            <item>7 meses de prisión en Cundinamarca en las dos ocasiones en que me
-                                tuvieron preso en el Panóptico de Bogotá.</item>
+                            <item>6 1/2 meses de campaña en <placeName type="departamento">Santander</placeName>.</item>
+                            <item>1 mes de campaña en <placeName type="departamento">Cundinamarca</placeName>.</item>
+                            <item>5 1/2 de prisión entre <placeName ref="#vts">Vetas</placeName> y <placeName ref="#tja">Tunja</placeName>.</item>
+                            <item>7 meses de prisión en <placeName type="departamento">Cundinamarca</placeName> en las dos ocasiones en que me
+                                tuvieron preso en el <orgName>Panóptico de <placeName ref="#bgta">Bogotá</placeName></orgName>.</item>
                         </list>
                     </div>
                     <div>
                         <head>COMBATES EN LOS QUE TOME PARTE:</head>
                         <list>
-                            <item>Bucaramanga</item>
-                            <item>Peralonso</item>
-                            <item>Gramalote</item>
-                            <item>La Tronadora y</item>
-                            <item>Vetas.</item>
+                            <item><placeName ref="#bgta" type="campoDeBatalla" corresp="#btllaBga">Bucaramanga</placeName></item>
+                            <item><placeName ref="#rplso" type="campoDeBatalla" corresp="#batPso">Peralonso</placeName></item>
+                            <item><placeName ref="#gmlt" type="campoDeBatalla" corresp="#batGmlt">Gramalote</placeName></item>
+                            <item><placeName type="campoDeBatalla" corresp="#batTrda">La Tronadora</placeName> y</item>
+                            <item><placeName ref="#vts" type="campoDeBatalla" corresp="#batVts">Vetas</placeName>.</item>
                         </list>
                     </div>
                 </div>
