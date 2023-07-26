@@ -1062,40 +1062,40 @@
                 </div>
                 <div type="hojaDeVida">
                     <head>REPÚBLICA DE COLOMBIA</head>
-                    <head>COMISIÓN DEL ESCALAFÓN DE ANTIGUOS MILITARES</head>
+                    <head><orgName>COMISIÓN DEL ESCALAFÓN DE ANTIGUOS MILITARES</orgName></head>
                     <head>(Ley 65 de 1937 y decreto reglamentario #322 de 1938)</head>
-                    <head>HOJA DE VIDA DEL SEÑOR, ALFREDO A. PINZÓN</head>
-                    <p>Nombre y apellidos ALFREDO A. PINZÓN TORRES</p>
+                    <head>HOJA DE VIDA DEL SEÑOR, <persName ref="#aap">ALFREDO A. PINZÓN</persName></head>
+                    <p>Nombre y apellidos: <persName ref="#aap">ALFREDO A. PINZÓN TORRES</persName></p>
                     <p>Inscrito en el Escalafón de Antiguos Militares con
                         el grado de</p>
-                    <p>Fecha de nacimiento, 20 de Julio de 1880</p>
-                    <p>Lugar, BOGOTÁ.</p>
+                    <p>Fecha de nacimiento, <date when="1880-07-20" type="fechaDeNacimiento">20 de Julio de 1880</date></p>
+                    <p>Lugar, <placeName ref="#bgta" type="lugarDeNacimiento">BOGOTÁ</placeName>.</p>
                     <p>Estado civil, SOLTERO</p>
                     <p>Nombre de la esposa,</p>
                     <p>Número de hijos,</p>
-                    <p>Servicios militares prestados, Del 18 de Octubre de 1899 al
-                        3 de Mayo de 1900 que caí prisionero en Vetas (Santander)
+                    <p>Servicios militares prestados, Del <date from="1899-10-18" to="1900-05-03" type="tiempoDeServicio">18 de Octubre de 1899 al
+                        3 de Mayo de 1900</date> que caí prisionero en <placeName ref="#vts">Vetas</placeName> (<placeName type="departamento">Santander</placeName>)
                         Salí bajo fianza y volví a hacer campaña durante un mes.
                         Total 8 meses en campaña y un año preso.</p>
-                    <p>Unidad, Infantería grado alcanzado, Subteniente</p>
-                    <p>Cédula de ciudadanía No. 1237415 de Bogotá</p>
-                    <p>Registro Electoral No. 36600 de Bogotá</p>
+                    <p>Unidad, Infantería grado alcanzado, <roleName type="militar">Subteniente</roleName></p>
+                    <p>Cédula de ciudadanía No. 1237415 de <placeName ref="#bgta">Bogotá</placeName></p>
+                    <p>Registro Electoral No. 36600 de <placeName ref="#bgta">Bogotá</placeName></p>
                     <p>Domicilio actual, Calle 9 # 8-71 y 8-75</p>
                     <p>Fecha,<date when="1938-06-02">Junio 2 de 1938</date></p>
-                    <p>Firma,</p><signed>Alfredo A. Pinzón</signed>
+                    <p>Firma,</p><signed><persName ref="#aap">Alfredo A. Pinzón</persName></signed>
                 </div>
                 <div type="resolución">
-                    <head>COMISION DEL ESCALAFON DE ANTIGUOS MILITARES</head>
-                    <dateline><placeName>BOGOTÁ</placeName>, <date>NOVIEMBRE 28/38</date></dateline>
+                    <head><orgName>COMISION DEL ESCALAFON DE ANTIGUOS MILITARES</orgName></head>
+                    <dateline><placeName ref="#bgta">BOGOTÁ</placeName>, <date when="1938-11-28" type="fechaResolución">NOVIEMBRE 28/38</date></dateline>
                     <p>PONENTE, DOCTOR <persName>RAMON ROSALES</persName></p>
-                    <p>El señor Alfredo A. Pinzón solicita su inscripción en el
-                        Escalafón de Antiguos Militares con el grado de Subteniente</p>
+                    <p>El señor <persName ref="#aap">Alfredo A. Pinzón</persName> solicita su inscripción en el
+                        Escalafón de Antiguos Militares con el grado de <roleName type="militar">Subteniente</roleName></p>
                     <p>Acompaña los siguientes documentos:</p>
                     <p>1. Relación de su campaña;</p>
-                    <p>2. Una nota Oficial autógrafa del Jefe Civil y Militar
-                        del Departamento de Boyacá, dirigida al Secretario de Gobierno de
-                        Cundinamarca en la cual le comunica que se puso en libertad el peticionario,
-                        prisionero de guerra en "Vetas", bajo fianza prestada por su padre;</p>
+                    <p>2. Una nota Oficial autógrafa del <roleName type="funcionario">Jefe Civil y Militar</roleName>
+                        del Departamento de <placeName type="departamento">Boyacá</placeName>, dirigida al <roleName type="funcionario">Secretario de Gobierno</roleName> de
+                        <placeName type="departamento">Cundinamarca</placeName> en la cual le comunica que se puso en libertad el peticionario,
+                        prisionero de guerra en "<placeName ref="#vts">Vetas</placeName>", bajo fianza prestada por su padre;</p>
                     <p>3. Un Certificado del Director de la Penitenciaría
                         Central de esta ciudad, en la cual consta que en el Libro Radicador de
                         entradas a esa Penitenciaría de los presos políticos de la última guerra
@@ -1103,35 +1103,35 @@
                         En esta fecha fue dado de alta en la Penitenciaría Central el preso
                         político ALFREDO A. PINZON, quien fue dado de baja el dia 19 de agosto del
                         mismo año, por orden del Jefe Civil y Militar del Departamento"; y</p>
-                    <p>4. Las declaraciones de los señores Roberto Vargas C.,
-                        Francisco Forero y Ezequiel Corrales, rendidas ante el Juez 1° Superior
+                    <p>4. Las declaraciones de los señores <persName ref="#rvc">Roberto Vargas C</persName>.,
+                        <persName ref="#fcof">Francisco Forero</persName> y <persName ref="#ezc">Ezequiel Corrales</persName>, rendidas ante el Juez 1° Superior
                         de esta ciudad, en presencia del respectivo Fiscal, en las cuales consta
-                        que el peticionario tomó parte en la guerra civil de los mil días,
-                        habiéndose incorporado a las fuerzas revolucionarias comandadas por el General
-                        Pedro Sánchez; que fue ascendido a Subteniente por el General Polidoro
-                        Ardila con destino a la 3a Compañía del Batallón "Bolívar" comandada por el
-                        Coronel Manuel V. González, y que en dicho grado terminó la campaña por 
-                        haber caído prisionero en "Vetas".</p>
+                        que el peticionario tomó parte en la <name ref="#gmd">guerra civil de los mil días</name>,
+                        habiéndose incorporado a las fuerzas revolucionarias comandadas por el <persName ref="#pds">General
+                        Pedro Sánchez</persName>; que fue ascendido a <roleName type="militar">Subteniente</roleName> por el <persName ref="#pda">General Polidoro
+                        Ardila</persName> con destino a la <orgName ref="#cia3BonBvar">3a Compañía</orgName> del <orgName ref="#bon.Bvar">Batallón "Bolívar"</orgName> comandada por el
+                        Coronel <persName ref="#mvg">Manuel V. González</persName>, y que en dicho grado terminó la campaña por 
+                        haber caído prisionero en "<placeName ref="#vts">Vetas</placeName>".</p>
                     <p>Como la prueba está en un todo de acuerdo con lo
                         prescrito por las disposiciones legales que reglamentan la materia, la 
                         Comisión</p>
                     <p>RESUELVE:</p>
-                    <p>Inscríbase al señor Alfredo A. Pinzón en el Escalafón
-                        de Antiguos Militares con el grado de SUBTENIENTE.</p>
-                    <p>Cópiese, envíese el expediente al Ministerio de Guerra, y
+                    <p>Inscríbase al señor <persName ref="#aap">Alfredo A. Pinzón</persName> en el Escalafón
+                        de Antiguos Militares con el grado de <roleName type="militar">SUBTENIENTE</roleName>.</p>
+                    <p>Cópiese, envíese el expediente al <orgName>Ministerio de Guerra</orgName>, y
                         Notifíquese.</p>
-                    <signed>Ramón Rosales</signed>
+                    <signed><persName>Ramón Rosales</persName></signed>
                     <signed>ILEGIBLE</signed>
                     <signed>ILEGIBLE</signed>
                     <signed>ILEGIBLE</signed>
                     <signed>ILEGIBLE</signed>
                 </div>
                 <div type="notificación">
-                    <p>En siete de diciembre de mil
-                        novecientos treinta y ocho notifiqué
-                        personalmente al señor Alfredo
-                        A. Pinzón del la Resolución</p>
-                    <signed>Alfredo A. Pinzón</signed>
+                    <p>En <date when="1938-12-07">siete de diciembre de mil
+                        novecientos treinta y ocho</date> notifiqué
+                        personalmente al señor <persName ref="#aap">Alfredo
+                        A. Pinzón</persName> del la Resolución</p>
+                    <signed><persName ref="#aap">Alfredo A. Pinzón</persName></signed>
                 </div>
             </div>
             <div type="trámite" subtype="recompensa">
@@ -1140,21 +1140,21 @@
                         <salute>Señor Ministro de Guerra
                             E. S. D.</salute>
                     </opener>
-                    <p>Yo, Alfredo A. Pinzón, varón mayor de edad, vecino de esta
+                    <p>Yo, <persName ref="#aap">Alfredo A. Pinzón</persName>, varón mayor de edad, vecino de esta
                         Capital y cedula en la misma bajo el número 1237415, por
                         medio del presente memorial me permito solicitar que previos
                         los requisitos de rigor, se me decrete la recompensa de que habla el Art-1°-de
                         la Ley 7a del corriente año.</p>
                     <p>Como fundamento de mi derecho, acompaño los siguientes documentos:</p>
                     <list>
-                        <item>1° Certificado del Ministerio de Hacienda y Crétido Público, en que consta que
-                            no he recibido pensión ni recompensa del Tesoro Nacional;</item>
+                        <item>1° Certificado del <orgName>Ministerio de Hacienda y Crétido Público</orgName>, en que consta que
+                            no he recibido pensión ni recompensa del <orgName>Tesoro Nacional</orgName>;</item>
                         <item>2° Certificado del Sr. Contralor General de la República, en que consta que
-                            me encuentro a paz y salvo con el Tesoro Nacional;</item>
-                        <item>3° Certificado de Ministerio de Guerra, en el que se establece que un
+                            me encuentro a paz y salvo con el <orgName>Tesoro Nacional</orgName>;</item>
+                        <item>3° Certificado de <orgName>Ministerio de Guerra</orgName>, en el que se establece que un
                             subteniente gana mensualmente la cantidad de ($130.00), y</item>
-                        <item>4° Copia de la resolución dictad por la Honorable Comisión del Nuevo
-                            Escalafón Militar, con la cual se acredita, que fui reconocido por dicha Comisión
+                        <item>4° Copia de la resolución dictad por la <orgName>Honorable Comisión del Nuevo
+                            Escalafón Militar</orgName>, con la cual se acredita, que fui reconocido por dicha Comisión
                             como Subteniente y que como tal fui inscrito en el Nuevo Escalafón de Antiguos
                             Militares, según ese mismo certificado.</item>
                     </list>
@@ -1163,20 +1163,20 @@
                     <closer>
                         <salute>Muy respetuosamente,</salute>
                         <signed>Alfredo A. Pinzón</signed>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1938-12-19">diciembre 19 de 1938</date></dateline>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-19">diciembre 19 de 1938</date></dateline>
                     </closer>
                 </div>
                 <div>
-                    <dateline><placeName>Bogotá</placeName>, <date when="1938-12-19">19 de diciembre de 1938</date></dateline>
+                    <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-19">19 de diciembre de 1938</date></dateline>
                     <p>O. al señor doctor
-                    JEFE DE LA ASESORÍA JURIDICA
+                    <roleName type="funcionario">JEFE DE LA ASESORÍA JURIDICA</roleName>
                     Gn.</p>
                     <p>Para lo de su cargo.</p>
                     <p>P. A. del general secretario,</p>
                     <p>CARLOS VANEGAS M</p>
-                    <p>Tte-cor. jefe Dpto.personal</p>
+                    <p><roleName type="militar"><abbr>Tte-cor <expan>Teniente Coronel</expan></abbr></roleName>. jefe Dpto.personal</p>
                     <closer>
-                        <signed>CARLOS VANEGAS M</signed>
+                        <signed><persName>CARLOS VANEGAS M</persName></signed>
                         <stamp>Ministerio de Guerra. Departamento de personal. Jefatura</stamp>
                     </closer>
                 </div>
@@ -1186,40 +1186,40 @@
                             <salute>Señor Ministro de Hacienda y Crédito Público
                                 E. S. D.</salute>
                         </opener>
-                        <p>Yo, Alfredo Pinzón, varón mayor de edad, vecino de esta
+                        <p>Yo, <persName ref="#aap">Alfredo Pinzón</persName>, varón mayor de edad, vecino de esta
                             Capital y cedulado en la misma bajo el número 1237415, de
                             S.S muy atentamente solicito que se digne ordenar por quien
                             corresponda, se me
                             CERTIFIQUE
-                            Si he recibido pensión o recompensa del Tesoro Nacional.</p>
+                            Si he recibido pensión o recompensa del <orgName>Tesoro Nacional</orgName>.</p>
                         <closer>
                             <salute>Muy respetuosamente,</salute>
-                            <signed>Alfredo A. Pinzón</signed>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1938-12-07">Diciembre 7 de 1938</date></dateline>
+                            <signed><persName ref="#app">Alfredo A. Pinzón</persName></signed>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-07">Diciembre 7 de 1938</date></dateline>
                         </closer>
                     </div>
                     <div>
-                        <head>MINISTERIO DE HACIENDA Y CRÉDITO PÚBLICO</head>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1938-12-10">diciembre 10 de 1938</date></dateline>
+                        <head><orgName>MINISTERIO DE HACIENDA Y CRÉDITO PÚBLICO</orgName></head>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-10">diciembre 10 de 1938</date></dateline>
                         <p>Por la Sección de Presupuesto y Contabilidad expídase el
                             certificado que se solicita.</p>
                         <closer>
                             Por el Minstro,
                             EL SECRETARIO,
-                            <signed>J. Arturo Jatamillo M.</signed>
+                            <signed><persName>J. Arturo Jatamillo M</persName>.</signed>
                         </closer>
                     </div>
                     <div>
-                        <head>MINISTERIO DE HACIENDA Y CREDITO PUBLICO</head>
+                        <head><orgName>MINISTERIO DE HACIENDA Y CREDITO PUBLICO</orgName></head>
                         <head>SECCION DE PRESUPUESTO Y CONTABILIDAD</head>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1938-12-13">Diciembre 13 de 1938</date></dateline>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-13">Diciembre 13 de 1938</date></dateline>
                         <p>De conformidad con lo que se dispone en la
                             sustanciación anterior, el Jefe de la Sección
                             CERTIFICA:</p>
-                        <p>Que el nombre de ALFREDO A. PINZON no esta inscrito
+                        <p>Que el nombre de <persName ref="#aap">ALFREDO A. PINZON</persName> no esta inscrito
                             en ninguno de los libros que se llevan en esta Sección, en los
                             cuales se inscriben todos los de las personas que son y han sido
-                            pensionadas por el Tesoro Nacional, así coom también los de las que
+                            pensionadas por el <orgName>Tesoro Nacional</orgName>, así coom también los de las que
                             han recibido recompensa de fondos del mismo tesoro, libros que se
                             examinaron detenidamente antes de expedir este certificado.</p>
                         <closer>
@@ -1234,33 +1234,33 @@
                             <salute>Señor Contralor General de la República
                                 E. S. D.</salute>
                         </opener>
-                        <p>Yo, Alfredo A. Pinzón, varón mayor de edad, vecino de esta
+                        <p>Yo, <persName ref="#aap">Alfredo A. Pinzón</persName>, varón mayor de edad, vecino de esta
                             Capital y cedulado en la misma bajo el número 1237415, de Ud.
                             muy atentamente solicito que se digne ordenar por quien
                             corresponda, se me
                             CERTIFIQUE
-                            Si estoy a paz y salvo con el Tesoro Nacional.</p>
+                            Si estoy a paz y salvo con el <orgName>Tesoro Nacional</orgName>.</p>
                         <closer>
                             <salute>Muy respetuosamente,</salute>
-                            <signed>Alfredo A. Pinzón</signed>
+                            <signed><persName ref="#aap">Alfredo A. Pinzón</persName></signed>
                             <dateline><placeName>Bogotá</placeName>, <date when="1938-12-07">Diciembre 7 de 1938</date></dateline>
                         </closer>
                     </div>
                     <div>
-                        <head>DEPARTAMENTO DE CONTRALORIA.-SECRETARIA Y NEGOCIOS GENERALES.</head>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1938-12-16">16 de dicimebre 1938</date>.</dateline>
-                        <p>EL CONTRALOR GENERAL DE LA REPUBLICA, en vista de los informes
-                            suministrados por los señores Juez Nacional de Ejecuciones
-                            Fiscales, Administrador de Hacienda Nacional de Cundinamarca,
+                        <head><orgName>DEPARTAMENTO DE CONTRALORIA</orgName>.-SECRETARIA Y NEGOCIOS GENERALES.</head>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-16">16 de dicimebre 1938</date>.</dateline>
+                        <p><roleName type="funcionario">EL CONTRALOR GENERAL DE LA REPUBLICA</roleName>, en vista de los informes
+                            suministrados por los señores <roleName type="funcionario">Juez Nacional de Ejecuciones
+                            Fiscales</roleName>, <roleName type="funcionario">Administrador de Hacienda Nacional de <placeName type="departamento">Cundinamarca</placeName></roleName>,
                             Contaduría Pagadora, Control y Revisión del Ministerio de Correos
                             y Telégrafos Recaudaciones Principales de Hacienda Nacional y 
                             empleados respectivos de la Contraloría,
                             CERTIFICA:
-                            Que no hay constancia de que el señor ALFREDO A. PINZÓN sea
-                            deudor moroso del Tesoro Nacional.</p>
+                            Que no hay constancia de que el señor <persName ref="#aap">ALFREDO A. PINZÓN</persName> sea
+                            deudor moroso del <orgName>Tesoro Nacional</orgName>.</p>
                         <closer>
-                            Por el Contralor, El Secretario,
-                            <signed>ILEGIBLE</signed>
+                            <signed>Por el Contralor, El Secretario,
+                            ILEGIBLE</signed>
                         </closer>
                     </div>
                 </div>
@@ -1270,35 +1270,33 @@
                             <salute>Señor Ministro de Guerra
                                 E. S. D.</salute>
                         </opener>
-                        <p>Yo, Alfredo A. Pinzón, varón mayor de edad, vecino de esta
+                        <p>Yo, <persName ref="#aap">Alfredo A. Pinzón</persName>, varón mayor de edad, vecino de esta
                             capital y cedulado en la misma bajo el número 1237415, de S. S.
                             muy atentamente solicito que se digne ordenar por quien
                             corresponda, se me
                             CERTIFIQUE
-                            Cunato gana mensualmente un Sub-teniente en servicio activo y a cuanto asciende
+                            Cunato gana mensualmente un <roleName type="funcionario">Sub-teniente</roleName> en servicio activo y a cuanto asciende
                             también mensualmente la prima de alojamiento como hombre soltero.</p>
                         <closer>
                             <salute>Muy respetuosamente,</salute>
-                            <signed>Alfredo A. Pinzón</signed>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1938-12-07">Diciembre 7 de 1938</date></dateline>
+                            <signed><persName ref="#aap">Alfredo A. Pinzón</persName></signed>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-07">Diciembre 7 de 1938</date></dateline>
                         </closer>
                     </div>
                     <div>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1938-12-07">7 de diciembre de 1938</date></dateline>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-07">7 de diciembre de 1938</date></dateline>
                         <p>Al señor
                         Jefe del departamento de control y O. P.
                         Gn.</p>
                         <p>Expídase la certificación que se solicita.</p>
                         <closer>
                             <salute>Atentamente,</salute>
-                            Por el ministro,
-                            <signed>EFRAÍN ROJAS</signed>
-                            General, Secretario
+                            <signed> Por el ministro, <persName>EFRAÍN ROJAS</persName> General, Secretario</signed>
                         </closer>
                     </div>
                     <div>
-                        <p>En suscrito Jefe del Departamento de Control y Ordenación del
-                            Ministerio de Guerra, en cumplimiento a lo ordenado por el auto 
+                        <p>En suscrito <roleName type="funcionario">Jefe del Departamento de Control y Ordenación del
+                            Ministerio de Guerra</roleName>, en cumplimiento a lo ordenado por el auto 
                             anterior,
                             
                             CERTIFICA:</p>
@@ -1320,12 +1318,11 @@
                         </closer>
                     </div>
                     <div>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1938-12-09">9 de diciembre de 1938</date></dateline>
-                        <p>El suscrito general secretario de guerra certifica que la
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1938-12-09">9 de diciembre de 1938</date></dateline>
+                        <p>El suscrito <roleName type="funcionario">general secretario de guerra</roleName> certifica que la
                         firma anterior es auténtica.</p>
                         <closer>
-                            <signed>EFRAIN ROJAS</signed>
-                            General, Secretario
+                            <signed><persName>EFRAIN ROJAS General</persName>, Secretario</signed>
                         </closer>
                     </div>
                 </div>
@@ -1334,17 +1331,17 @@
                     <p><date when="1939-02-21">(Febrero 21)</date></p>
                     <p>Por la cual se decreta una recompensa.</p>
                     <p>PODER PUBLICO.- ORGANO EJECUTIVO NACIONAL.</p>
-                    <p>El señor ALFREDO A. PINZON, en memorial dirigido a este
-                        Despacho en fecha de 19 de diciembre de 1938 solicita que se ordene a su
+                    <p>El señor <persName ref="#aap">ALFREDO A. PINZON</persName>, en memorial dirigido a este
+                        Despacho en fecha de <date when="1938-12-19">19 de diciembre de 1938</date> solicita que se ordene a su
                         favor el pago de la recompensa a que tiene derecho de conformidad con la Ley
                         7a de 1938. Acompaña en su demanda los siguientes documentos: certificación
                         expedida por la Comisión del Escalafón de Antiguos Militares, según la
-                        cual el demandante fue inscrito en el Escalafón con el grado de SUBTENIENTE;
-                        certificación del Ministerio de Hacienda, según la cual el señor ALFREDO A.
-                        PINZON no ha recibido pensión ni recompensa del Tesoro Nacional; certificación
-                        del señor Contrañol General de la República de que no hay constancia que
-                        el señor ALFREDO A. PINZÓN sea deudor moroso del Tesoro Nacional y por último
-                        certificado del Departamento de Control y Ordenación de este Ministerio
+                        cual el demandante fue inscrito en el Escalafón con el grado de <roleName type="militar">SUBTENIENTE</roleName>;
+                        certificación del <orgName>Ministerio de Hacienda</orgName>, según la cual el señor <persName>ALFREDO A.
+                        PINZON</persName> no ha recibido pensión ni recompensa del <orgName>Tesoro Nacional</orgName>; certificación
+                        del señor <roleName type="funcionario">Contrañol General de la República</roleName> de que no hay constancia que
+                        el señor <persName ref="#aap">ALFREDO A. PINZÓN</persName> sea deudor moroso del <orgName>Tesoro Nacional</orgName> y por último
+                        certificado del <orgName>Departamento de Control y Ordenación de este Ministerio</orgName>
                         sobre el sueldo mensual que actualmente devenga un SUBTENIENTE.</p>
                     <p>Para resolver se considera: el Honorable Consejo de Estado en la
                         sentencia con que puso fin al juicio iniciado por el señor Camilo Guerra se
@@ -1352,14 +1349,14 @@
                         mencionada y consideró que el sueldo que debe tenerse en cuenta para liquidar
                         el valor de ellas en el que estuviera asignado en el momento de entrar en
                         vigencia la ley 7a.</p>
-                    <p>En mérito de las consideraciones expuestas, el Organo Ejecutivo
-                        reconoce en favor del señor ALFREDO A. PINZON la recompensa decretada por la
-                        Ley 7a de 1938, consistente en el valor del año de sueldo de un SUBTENIENTE,
+                    <p>En mérito de las consideraciones expuestas, el <orgName>Organo Ejecutivo</orgName>
+                        reconoce en favor del señor <persName ref="#aap">ALFREDO A. PINZON</persName> la recompensa decretada por la
+                        Ley 7a de 1938, consistente en el valor del año de sueldo de un <roleName type="militar">SUBTENIENTE</roleName>,
                         o sea la suma de $1.380.00.</p>
                     <p>El pago se hará en la forma señalada por la Ley 142 de 1938, previo
                         el descuento del 15% ordenado por el artículo 2° de la mencionada Ley 7a.</p>
                     <p>NOTIFIQUESE Y CUMPLASE.</p>
-                    <p>Dada en Bogotá, a 21 FEB 1939</p>
+                    <p>Dada en <placeName ref="#bgta">Bogotá</placeName>, a <date when="1939-02-21" type="fechaResulución">21 FEB 1939</date></p>
                     <p>JOSE JOAQUÍN CASTRO MARTÍNEZ</p>
                     <p>MINISTRO DE GUERRA.</p>
                     <signed>José Joaquín Castro Martínez</signed>
