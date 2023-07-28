@@ -1369,12 +1369,12 @@
                     <signed>ILEGIBLE</signed>
                 </div>
                 <div>
-                    <p>EL TESORO NACIONAL
+                    <p><orgName>EL TESORO NACIONAL</orgName>
                     a
-                    ALFREDO A. PINZON,
-                    Herederos: Aminta Pinzón de Buitrago y
-                    Dr. Delfín Duque Giraldo, curador ad-liten del menor
-                    Eduardo Pinzón M. 
+                    <persName ref="#aap">ALFREDO A. PINZON</persName>,
+                    Herederos: <persName xml:id="ampb" role="familiar" corresp="#aap">Aminta Pinzón de Buitrago</persName> y
+                    Dr. <persName>Delfín Duque Giraldo</persName>, curador ad-liten del menor
+                    <persName xml:id="edpm" role="familiar" corresp="#aap">Eduardo Pinzón M</persName>. 
                     DEBE:</p>
 
                     <p>Por parte de la recompensa que me corresponde
@@ -1383,12 +1383,12 @@
                     Ejecutiva número 253 de 1939, así:</p>
                     <p>Sueldo en un año de un Subteniente, grado 
                     con el cual fui inscrito en el Escalafón de
-                    Antiguos Militares, por resulución de Nov.28 de 1938
-                    de la Comisión del Escalafón de Antiguos 
-                    Militares 
+                    Antiguos Militares, por resulución de <date>Nov.28 de 1938</date>
+                    de la <orgName>Comisión del Escalafón de Antiguos 
+                    Militares</orgName> 
                     $ 1.380.00</p> 
                     <p>PARA DEDUCIR 
-                    62% que queda adeudanto el Tesoro Nacional,
+                    62% que queda adeudanto el <orgName>Tesoro Nacional</orgName>,
                     según lo dispuesto por el artículo 5 del Decreto
                     número 1332 de 1939
                     $855.60
@@ -1403,37 +1403,37 @@
                     <p>Valor que se cobra hoy $445.74</p>
                     <p>SON: CUATROCIENTOS CUARENTA Y CINCO PESOS CON 74/100, M.C.</p>
                     <closer>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1940-02-14">Febrero 14 de 1940</date></dateline>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1940-02-14">Febrero 14 de 1940</date></dateline>
                         Recibí: 
-                        <signed>Aminta Pinzon de Buitrago</signed> T.I 65570
-                        <signed>Delfín Duque Giraldo</signed>
+                        <signed><persName ref="#ampb">Aminta Pinzon de Buitrago</persName></signed> T.I 65570
+                        <signed><persName>Delfín Duque Giraldo</persName></signed>
                         C. de C. No. 121326 de Bogotá.
                     </closer>
                 </div>
                 <div>
                     <head>RESOLUCIÓN NUMERO 212 DE 1940</head>
                     <p><date when="1940-03-01">(Marzo 1)</date></p>
-                    <p>Los señores Aminta Pinzón de Buitrago y Delfín
-                    Duque Giraldo curador ad-linten del menor Eduardo
-                    Pinzón M., hablando en su carácter de herederos 
-                    del Señor ALFREDO A. PINZON, a quien la Comisión del Escalafón de 
-                    Antiguos Militares inscribió con el grado de SUBTENIENTE, solicitan
+                    <p>Los señores <persName ref="#ampb">Aminta Pinzón de Buitrago</persName> y <persName>Delfín
+                    Duque Giraldo</persName> curador ad-linten del menor <persName ref="#edpm">Eduardo
+                    Pinzón M</persName>., hablando en su carácter de herederos 
+                    del Señor <persName ref="#aap">ALFREDO A. PINZON</persName>, a quien la <orgName>Comisión del Escalafón de 
+                    Antiguos Militares</orgName> inscribió con el grado de <roleName type="militar">SUBTENIENTE</roleName>, solicitan
                     que se ordene a su favor el pago de una parte de la recompensa
                     que fue decretada por Resolución Ejecutiva número 253 de 1939, en
                     la proporción que señala el decreto 1332 de 1939.</p>
                     <p>Para comprobar su derecho los peticionarios acompañan
                     los siguientes documentos: copia de la providencia dictada por el
                     Juez 6° Civil Municipal de Bogotá, por medio de la cual se 
-                    reconoce a Aminta Pinzon de Buitrago y Eduardo Pinzon M. el carácter de
-                    herederos del señor ALFREDO A. PINZÓN y al señor Delfin Duque
-                    Giraldo como Curador de Eduardo Pinzón M.; copia auténtica de la 
+                    reconoce a <persName ref="#ampb">Aminta Pinzon de Buitrago</persName> y <persName ref="#edpm">Eduardo Pinzon M</persName>. el carácter de
+                    herederos del señor <persName ref="#aap">ALFREDO A. PINZÓN</persName> y al señor <persName>Delfin Duque
+                    Giraldo</persName> como Curador de <persName ref="#edpm">Eduardo Pinzón M</persName>.; copia auténtica de la 
                     Resolución Ejecutiva número 253 de 1939; certificado expedido por el
                     Auditor Fiscal de Cundinamarca, según el cual el nombre del exinto
                     no figura entre los contribuyentes del impuesto sobre la renta, ni
                     de patrimonio, ni de exceso de utilidades; declaraciones rendidas
-                    ante el Juez 2° Municipal de Bogotá, por los señores Nepomuceno
-                    Ladrón de Guevara y Jorge E. Castro M., quienes afirman que el
-                    señor ALFREDO A. PINZON carecía de bienes de fortuna y de renta que
+                    ante el Juez 2° Municipal de Bogotá, por los señores <persName>Nepomuceno
+                    Ladrón de Guevara</persName> y <persName>Jorge E. Castro M</persName>., quienes afirman que el
+                    señor <persName ref="#aap">ALFREDO A. PINZON</persName> carecía de bienes de fortuna y de renta que
                     alcanzara a $80.oo mensuales, y, por último, certficación del
                     mismo Juez de que los testigos son idóneos.</p>
                     <p>Como con los mencionados documentos se comprueba
@@ -1445,7 +1445,7 @@
                     que el extinto tuvo derecho, en la proporción indicada por el
                     artículo 5 del decreto número 1332 de 1939.</p>
                     <p>NOTIFÍQUEE Y CUMPLASE.</p> 
-                    <dateline>Dada en <placeName>Bogotá</placeName> a <date>1 de marzo de 1940</date></dateline>
+                    <dateline>Dada en <placeName ref="#bgta">Bogotá</placeName> a <date when="1940-03-01">1 de marzo de 1940</date></dateline>
                     <signed>Ministro de Guerra</signed>
                     <signed>Coronel, Encgdo. Sría.</signed>
                 </div>
@@ -1454,9 +1454,9 @@
                     <head>ORDEN DE PAGO</head>
                     <head>Al Tesorero General de la República</head>
                     <dateline><placeName>Bogotá</placeName>, <date when="1940-03-05">marzo 5 de 1940</date></dateline>
-                    <p>Orden de Pago expedida a: ALFREDO A. PINZON
-                        Herederos: AMINTA PINZON DE BUITRAGO Y Delfín Duque Giraldo
-                        como curador Ad-liten del menor EDUARDO PINZON M.</p>
+                    <p>Orden de Pago expedida a: <persName ref="#aap">ALFREDO A. PINZON</persName>
+                        Herederos: <persName ref="#ampb">AMINTA PINZON DE BUITRAGO</persName> Y <persName>Delfín Duque Giraldo</persName>
+                        como curador Ad-liten del menor <persName ref="#edpm">EDUARDO PINZON M</persName>.</p>
                     <p>La suma de CUATROCIENTOS CUARENTA Y CINCO PESOS 74/100 m/cte. $ 445.74 m/cte. </p>
                     <table>
                         <row>
@@ -1474,12 +1474,12 @@
                         </row>
                     </table>
                     <p>POR</p>
-                    <p>Valor de parte de la recompensa como SUBTENIENTE, a
+                    <p>Valor de parte de la recompensa como <roleName type="militar">SUBTENIENTE</roleName>, a
                         que tiene derecho según Ley 7a de 1938, reconocida
                         por Resolución Ejecutiva número 253 de 1939 de 1939, de 
                         acuerdo con la cuenta de cobro número 442.</p>
                     <p>PARA PAGAR EN BONOS DE DEUDA INTERNA DEL 4.</p>
-                    <signed>JUAN FRANCISCO BERNAL - Jefe de Depto.</signed>
+                    <signed><persName>JUAN FRANCISCO BERNAL - <roleName type="funcionario">Jefe de Depto</roleName></persName>.</signed>
                 </div>
                 <div>
                     <opener>
@@ -1490,13 +1490,13 @@
                             L. C. </salute>
                     </opener>
                     <p>Muy atentamente me permito comunicar a Ud. que autorizo
-                        al Dr. Servando Guitiérrez Aragón para que firme el recibo de la
+                        al <persName>Dr. Servando Guitiérrez Aragón</persName> para que firme el recibo de la
                         Orden de Pago # 3211 por $445.74, girada por ese Ministerio
-                        a favorde la Sra. Aminta Pizón de Buitrago y del suscrito como
-                        curador del menor Luis E. Pinzón.</p>
+                        a favor de la Sra. <persName ref="#ampb">Aminta Pizón de Buitrago</persName> y del suscrito como
+                        curador del menor <persName ref="#edpm">Luis E. Pinzón</persName>.</p>
                     <closer>
                         <salute>De Ud. muy atentamente,</salute>
-                        <signed>Delfin Duque Giraldo
+                        <signed><persName>Delfin Duque Giraldo</persName>
                             Ced. 1213267 de Bogotá.</signed>
                     </closer>
                 </div>
@@ -1509,22 +1509,22 @@
                                 MINISTRO DE GUERRA
                                 E.S.D</salute>   
                         </opener>
-                        <p>Nosotros, EDUARDO PINZON Y AMINTA PINZON M. de
-                            Buitrago, vecinos de Bogotá y con cédula # 2795990
-                            de Bogotá, y tarjeta de identidad # 137780 de la misma ciudad,
+                        <p>Nosotros, <persName ref="#edpm">EDUARDO PINZON</persName> Y <persName ref="#ampb">AMINTA PINZON M. de
+                            Buitrago</persName>, vecinos de <placeName ref="#bgta">Bogotá</placeName> y con cédula # 2795990
+                            de <placeName ref="#bgta">Bogotá</placeName>, y tarjeta de identidad # 137780 de la misma ciudad,
                             respectivamente, con toda atención solicitamos de Su Señoría se sirva
                             ordenar a quien corresponda se nos expida a continuación copia
                             certificada de la Resolución Ejecutiva número 253 de 1939 por medio de
                             la cual se decretó la recompensa de nuestro finado padre señor
-                            ALFREDO A. PINZÓN,quien fue inscrito en el Escalafón de Antiguos
-                            Militares con el grado de SUBTENIENTE, y la certificación de lo que ya
+                            <persName ref="#aap">ALFREDO A. PINZÓN</persName>,quien fue inscrito en el Escalafón de Antiguos
+                            Militares con el grado de <roleName type="militar">SUBTENIENTE</roleName>, y la certificación de lo que ya
                             fue pagado y el saldo que quedó a favor. -Acompañamos un sello de
                             papel en blanco y una estampilla de timbre de 25 centavos.</p>
                         <closer>
                             <salute>Del señor Ministro, atentamente,</salute>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1945-06-25">Junio 25 de 1945</date>.</dateline>
-                            <signed>Eduardo Pinzón</signed>
-                            <signed>Aminta P de Buitrago</signed>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1945-06-25">Junio 25 de 1945</date>.</dateline>
+                            <signed><persName ref="#edpm">Eduardo Pinzón</persName></signed>
+                            <signed><persName ref="#ampb">Aminta P de Buitrago</persName></signed>
                         </closer>
                     </div>
                     <div>
@@ -1538,8 +1538,8 @@
                             del Código Político y Municipal.</p>
                         <closer>
                             <salute>Atentamente,</salute>
-                            <signed>Coronel Arturo Lema Posada
-                                Secretario General.</signed>
+                            <signed><persName>Coronel Arturo Lema Posada
+                                <roleName type="funcionario">Secretario General</roleName></persName>.</signed>
                             <stamp>MINISTERIO DE GUERRA. SECRETARIA</stamp>
                         </closer>    
                     </div>
@@ -1553,29 +1553,29 @@
                             refiere el memorialista.</p>
                         <closer>
                             <salute>Atentamente,</salute>
-                            <signed>CIRO ANIBAL DURAN V. Jefe Secc. Archivo gral.</signed>
+                            <signed><persName>CIRO ANIBAL DURAN V. <roleName type="funcionario">Jefe Secc. Archivo gral</roleName></persName>.</signed>
                             <stamp>ARCHIVO GENERAL. MINISTERIO DE GUERRA</stamp>
                         </closer>
                     </div>
                     <div>
                         <head>DEPARTAMENTO DE CONTROL Y ORDENACION DEL PRESUPUESTO.</head>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1945-07-09">9 de Julio de 1945</date>.</dateline>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1945-07-09">9 de Julio de 1945</date>.</dateline>
                         <p>A continuación se compulsan las siguientes copias: "Resolución
                             Ejecutiva número 253 de 1939(Febrero 21) Por la cual se decreta una
                             recompensa. Poder Público. Órgano Ejectivo Nacional. El señor 
-                            Alfredo A. Pinzón, en memorial drigido a este Despacho con fecha 19 de
-                            Diciembre de 1938 solicita que se ordene a su favor el pago de la
+                            <persName ref="#aap">Alfredo A. Pinzón</persName>, en memorial drigido a este Despacho con fecha <date when="1938-12-19">19 de
+                            Diciembre de 1938</date> solicita que se ordene a su favor el pago de la
                             recompensa a que tiene derecho de conformidad con la ley 7° de
                             1938. Acompaña a su demanda los siguientes documentos: certificación
-                            expedida por la Comisión del Escalafón de Antiguos Militares según
+                            expedida por la <orgName>Comisión del Escalafón de Antiguos Militares</orgName> según
                             la cual el demandante fue inscrito en el Escalafón con el grado de
-                            SUBTENIENTE; certificación del Ministerio de Hacienda, según la cual
-                            el señor Alfredo A. Pinzón no ha recibido pensión ni recompensa del
-                            Tesoro Nacional; certificación del señor Contralor General de la
-                            República de que no hay constancia que el señor Alfredo A. Pinzón sea
-                            deudor moroso del Tesoro Nacional y por último certificado del
+                            <roleName type="militar">SUBTENIENTE</roleName>; certificación del <orgName>Ministerio de Hacienda</orgName>, según la cual
+                            el señor <persName ref="#aap">Alfredo A. Pinzón</persName> no ha recibido pensión ni recompensa del
+                            <orgName>Tesoro Nacional</orgName>; certificación del señor Contralor General de la
+                            República de que no hay constancia que el señor <persName ref="#aap">Alfredo A. Pinzón</persName> sea
+                            deudor moroso del <orgName>Tesoro Nacional</orgName> y por último certificado del
                             Departamento de Control y Ordenación de este Ministerio sobre el
-                            sueldo mensual que actualmente devenga un SUBTENIENTE. Para resolver
+                            sueldo mensual que actualmente devenga un <roleName type="militar">SUBTENIENTE</roleName>. Para resolver
                             se considera: el Honorable Consejo de Estado en la sentencia con que 
                             puso fin al juicio iniciado por el señor Camilo Guerra se declaró
                             incompetente para conocer de las recompensas de que trata la ley
@@ -1583,28 +1583,28 @@
                             para liquidar el valor de ellas es el que estuviera asignado en 
                             elmomento de entrar en vigencia la ley 7°. En mérito
                             de las consideraciones expuestas, el Órgano Ejecutivo
-                            reconoce en favor del señor Alfredo A. Pinzón
+                            reconoce en favor del señor <persName ref="#aap">Alfredo A. Pinzón</persName>
                             la recompensa decretada por la ley 7° de 1938,
-                            consistente en el valor del año de sueldo de un SUBTENIENTE, o sea la
+                            consistente en el valor del año de sueldo de un <roleName type="militar">SUBTENIENTE</roleName>, o sea la
                             suma de $1.380.00. El pago se hará en la forma señalada por la ley
                             142 de 1938, previo el descuento del 15% ordenado por el artículo
                             2° de la mencionada ley. Notifíquese y publíquese. Dada en Bogotá, a
-                            21 de Febrero de 1939. (Firmado). Eduardo Santos-José Joaquín Castro
-                            Martínez, (firmado), Ministro de Guerra."</p>
+                            21 de Febrero de 1939. (Firmado). <persName>Eduardo Santos</persName>-<persName>José Joaquín Castro
+                            Martínez, (firmado), <roleName>Ministro de Guerra</roleName></persName>."</p>
                             
-                            <p>"EL TESORO NACIONAL
+                            <p>"<orgName>EL TESORO NACIONAL</orgName>
                             a
-                            ALFREDO A. PINZON, Herederos: Aminta Pinzón de
-                            Buitrago, y Dr. Delfín Duque Giraldo, curador ad-liten del menor Eduardo
-                            Pinzón M.</p>
+                            <persName ref="#aap">ALFREDO A. PINZON</persName>, Herederos: <persName ref="#ampb">Aminta Pinzón de
+                            Buitrago</persName>, y <persName>Dr. Delfín Duque Giraldo</persName>, curador ad-liten del menor <persName ref="#edpm">Eduardo
+                            Pinzón M</persName>.</p>
                             <p>Por parte de la recompensa que me corresponde conforme el
                             artículo 1° de la ley 7° de 1938, según reconocimiento hecho por la
                             Resolución Ejecutiva número 233 de 1939, así: Sueldo en un año de un
                             Subteniente, grado con el cual fui inscrito en el Escalafón de Antiguos
-                            Militares, por Resolución de Noviembre 28 de 1938 de la Comisión
-                            del Escalafón de Antiguos Militares $1.380.00</p>
+                            Militares, por Resolución de Noviembre 28 de 1938 de la <orgName>Comisión
+                            del Escalafón de Antiguos Militares</orgName> $1.380.00</p>
                             <p>PARA DEDUCIR:
-                            62% que queda adeudando el Tesoro Nacional, según lo
+                            62% que queda adeudando el <orgName>Tesoro Nacional</orgName>, según lo
                             dispuesto por el artículo 5° del Decreto número 1332, de
                             1938 "855.60
                             QUEDAN $524.40</p>
@@ -1617,10 +1617,10 @@
 
                             <p>SON CUATROCIENTOS CUARENTA Y CINCO PESOS CON SETENTICUATRO Ct. M/C.</p>
                             <p>Bogotá, Febrero 14 de 1940.</p>
-                            <p>Recibí: (Firmados): Aminta Pinzón de Buitrago, T. de I, 65570; Delfín
-                            Duque Giraldo., C. d c. No 1813267 de Bogotá"</p>
-                            <signed>CAP. DE CORB. ENRIQUE GAMBOA F.,
-                                Jefe del Departamento.</signed>
+                            <p>Recibí: (Firmados): <persName ref="#ampb">Aminta Pinzón de Buitrago</persName>, T. de I, 65570; <persName>Delfín
+                            Duque Giraldo</persName>., C. d c. No 1813267 de Bogotá"</p>
+                            <signed><persName><roleName type="militar"><abbr>CAP. DE CORB<expan>Capitán de Corbeta</expan></abbr></roleName>. ENRIQUE GAMBOA F.,
+                                <roleName type="funcionario">Jefe del Departamento</roleName></persName>.</signed>
                     </div>
                 </div>
                 <div>
@@ -1629,32 +1629,32 @@
                             <salute>Señor Contralor General de la República
                                 E.S.D.</salute>
                         </opener>
-                        <p>Yo, Aminta Pinzón de Buitrago, mayor de edad, vecina
-                            de Bogotá, con tarjeta de identidad número 137780
+                        <p>Yo, <persName ref="#ampb">Aminta Pinzón de Buitrago</persName>, mayor de edad, vecina
+                            de <placeName ref="#bgta">Bogotá</placeName>, con tarjeta de identidad número 137780
                             de Bogotá, a Ud. atentamente solicito se digne certificarme a
-                            continuación si soy o no deudora morosa del Tesoro Nacional.
-                            Necesito este certificado para reclamar del Ministerio de
-                            Guerra la cuota que adeuda por concepto de veteranía a mi finado
-                            padre, señor ALFREDO A. PINZON.</p>
+                            continuación si soy o no deudora morosa del <orgName>Tesoro Nacional</orgName>.
+                            Necesito este certificado para reclamar del <orgName>Ministerio de
+                            Guerra</orgName> la cuota que adeuda por concepto de veteranía a mi finado
+                            padre, señor <persName ref="#aap">ALFREDO A. PINZON</persName>.</p>
                         <closer>
                             <salute>Soy del señor Contralor, Atta. S.S.</salute>
-                            <signed>Aminta Pinzón de Buitrago.</signed>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1948-05-08">mayo 8 de 1948</date></dateline>
+                            <signed><persName ref="#ampb">Aminta Pinzón de Buitrago</persName>.</signed>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1948-05-08">mayo 8 de 1948</date></dateline>
                         </closer>
                     </div>
                     <div>
                         <head>"DEPARTAMENTO DE CONTRALORIA. -SECRETARIA Y NEGOCIOS GENERALES.- </head>
-                        <dateline><placeName>Bogotá</placeName>, <date when="1948-06-14">junio 14 de 1.948</date></dateline>
+                        <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1948-06-14">junio 14 de 1.948</date></dateline>
                         <p>EL CONTRALOR GENERAL DE LA REPÚBLICA, en
                             vista de los informes suministrados por los señores Juez Nal. de
                             Ejec. Fisc., Admor. de Hda. Nal. de Cund., Control y Rev. del
                             Ministerio de Correos, Recaud. Pls. de Hda. Nal. y empleos respectivos
                             de la Contraloría,</p>
                         <p>CERTIFICA:</p>
-                        <p>Que no hay constancia de que el señor AMINTA PINZON DE BUITRAGO
+                        <p>Que no hay constancia de que el señor <persName ref="#ampb">AMINTA PINZON DE BUITRAGO</persName>
                             sea deudor moroso del Tesoro Nal.</p>
                         <closer>
-                            <signed>Por el Contralor, Hernando Castilla Alvira</signed>
+                            <signed>Por el Contralor, <persName>Hernando Castilla Alvira</persName></signed>
                             <stamp>CONTRALORIA GENERAL DE LA REPUBLICA. SECRETARIA</stamp>
                         </closer>
                     </div>
@@ -1665,17 +1665,17 @@
                             <salute>Señor Contralor General de la República
                                 E.S.D.</salute>
                         </opener>
-                        <p>Yo, Eduardo Pinzón M. mayor de edad, vecino de
-                            Bogotá, cedulado con el número 2916441 de Bogotá, a Ud.
+                        <p>Yo, <persName ref="#edpm">Eduardo Pinzón M</persName>. mayor de edad, vecino de
+                            <placeName ref="#bgta">Bogotá</placeName>, cedulado con el número 2916441 de Bogotá, a Ud.
                             en términos muy atentos solicito, se digne certificarme a continuación
-                            si soy o no deudor moroso del Tesoro Nacional.
-                            Necesito este certificado para cobrar en el Ministerio de Guerra
+                            si soy o no deudor moroso del <orgName>Tesoro Nacional</orgName>.
+                            Necesito este certificado para cobrar en el <orgName>Ministerio de Guerra</orgName>
                             la cuota que por concepto de veteranía de mi finado padre, el señor
-                            ALFREDO A. PINZON, se me adeuda.</p>
+                            <persName ref="#aap">ALFREDO A. PINZON</persName>, se me adeuda.</p>
                         <closer>
                             <salute>Atte.S.S.</salute>
-                            <signed>Eduardo Pinzón.</signed>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1948-05-08">mayo 8 de 1948</date></dateline>
+                            <signed><persName ref="#edpm">Eduardo Pinzón</persName>.</signed>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1948-05-08">mayo 8 de 1948</date></dateline>
                         </closer>
                     </div>
                     <div>
@@ -1687,10 +1687,10 @@
                             Ministerio de Correos, Recaud. Pls. de Hda. Nal. y empleos respectivos
                             de la Contraloría,</p>
                         <p>CERTIFICA:</p>
-                        <p>Que no hay constancia de que el señor EDUARDO PINZON M.
-                            sea deudor moroso del Tesoro Nal.</p>
+                        <p>Que no hay constancia de que el señor <persName ref="#edpm">EDUARDO PINZON M</persName>.
+                            sea deudor moroso del <orgName>Tesoro Nal</orgName>.</p>
                         <closer>
-                            <signed>Por el Contralor, Hernando Castilla Alvira</signed>
+                            <signed>Por el Contralor, <persName>Hernando Castilla Alvira</persName></signed>
                             <stamp>CONTRALORIA GENERAL DE LA REPUBLICA. SECRETARIA</stamp>
                         </closer>
                     </div>
@@ -1702,27 +1702,27 @@
                                 Ministro de Hacienda y Crédito Público
                                 E.S.D</salute>
                         </opener>
-                        <p>Nosotros, Aminta Pinzón de Buitrago y Eduardo
-                            Pinzón M., ambos mayores de edad, vecinos de Bogotá, la
+                        <p>Nosotros, <persName ref="#ampb">Aminta Pinzón de Buitrago</persName> y <persName ref="#edpm">Eduardo
+                            Pinzón M</persName>., ambos mayores de edad, vecinos de <placeName ref="#bgta">Bogotá</placeName>, la
                             primera con tarjeta de identidad número 137780 de Bogotá, y el 
                             segundo con cédula de ciudadanía número 2416441 de Bogotá, a S.S. con el
                             acatamiento debido solicitamos se digne a certificarnos a continuación
                             si hemos recibido o recibimos pensión o recompensa a cargo del
                             Estado.</p>
-                        <p>Necesitamos esta certificación para cobrar en el Ministerio de
-                            Guerra la cuota que por concepto de veteranía de nuestro finado
-                            padre, el señor ALFREDO A. PINZON, se nos adeuda.</p>
+                        <p>Necesitamos esta certificación para cobrar en el <orgName>Ministerio de
+                            Guerra</orgName> la cuota que por concepto de veteranía de nuestro finado
+                            padre, el señor <persName ref="#aap">ALFREDO A. PINZON</persName>, se nos adeuda.</p>
                         <closer>
                             <salute>De S.S. Attos. S.S.</salute>
-                            <signed>Aminta Pinzón de Buitrago</signed>
-                            <signed>Eduardo Pinzon M.</signed>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1948-05-07">mayo 7 de 1948</date></dateline>
+                            <signed><persName ref="#ampb">Aminta Pinzón de Buitrago</persName></signed>
+                            <signed><persName ref="#edpm">Eduardo Pinzon M</persName>.</signed>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1948-05-07">mayo 7 de 1948</date></dateline>
                         </closer>
                     </div>
                     <div>
-                        <head>MINISTERIO DE HACIENDA Y CREDITO PUBLICO</head>
+                        <head><orgName>MINISTERIO DE HACIENDA Y CREDITO PUBLICO</orgName></head>
                         <opener>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1948-05-17">17 MAY 1948</date></dateline>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1948-05-17">17 MAY 1948</date></dateline>
                         </opener>
                         <p>Por la Sección de Presupuesto y Contabilidad expídase
                             el certificado que se solicita.</p>
@@ -1731,25 +1731,25 @@
                         </closer>
                     </div>
                     <div>
-                        <head>MINISTERIO DE HACIENDA Y CREDITO PUBLICO</head>
+                        <head><orgName>MINISTERIO DE HACIENDA Y CREDITO PUBLICO</orgName></head>
                         <head>DEPARTAMENTO DE PRESUPUESTO Y CONTABILIDAD</head>
                         <opener>
-                            <dateline><placeName>Bogotá</placeName>, <date when="1948-05-20">20 de mayo de 1948</date></dateline>
+                            <dateline><placeName ref="#bgta">Bogotá</placeName>, <date when="1948-05-20">20 de mayo de 1948</date></dateline>
                         </opener>
                         <p>El suscrito Director del Departamento de presupuesto y
                             contabilidad, en cumplimiento del auto anterior, CERTIFICA:
                             Que examinados cuidadosamente los libros y registros respectivos
                             que en este Ministerio se llevan, no aparece constancia
-                            de que EDUARDO PINZON M. portador
-                            de la C. de C. número 2416441 de Bogotá haya
-                            recibido pensión ni recompensa del Tesoro Nacional, así como
-                            no aparece constancia de que la Sra. AMINTA PINZON DE BUITRAGO,
-                            portadora de la T. de I. # 137780 de Bogotá, haya recibido pensión
-                            ni recompensa del Tesoro Nacional, pero en la Relación de Veteranos
-                            suministrada por el Ministerio de Guerra, aparece que al Sr.
-                            ALFREDO A. PINZÓN, le fue pagada la suma de cuatrocientos cuarenta
+                            de que <persName ref="#edpm">EDUARDO PINZON M</persName>. portador
+                            de la C. de C. número 2416441 de <placeName ref="#bgta">Bogotá</placeName> haya
+                            recibido pensión ni recompensa del <orgName>Tesoro Nacional</orgName>, así como
+                            no aparece constancia de que la Sra. <persName ref="#ampb">AMINTA PINZON DE BUITRAGO</persName>,
+                            portadora de la T. de I. # 137780 de <placeName ref="#bgta">Bogotá</placeName>, haya recibido pensión
+                            ni recompensa del <orgName>Tesoro Nacional</orgName>, pero en la Relación de Veteranos
+                            suministrada por el <orgName>Ministerio de Guerra</orgName>, aparece que al Sr.
+                            <persName ref="#aap">ALFREDO A. PINZÓN</persName>, le fue pagada la suma de cuatrocientos cuarenta
                             y cinco pesos con setenta y cuatro centavos ($445.74)m/cte, en
-                            su condición de SUBTENIENTE. </p>
+                            su condición de <roleName type="militar">SUBTENIENTE</roleName>. </p>
                         <closer>
                             <signed>ILEGIBLE</signed>
                             <stamp>Ministerio de Hacienda, Pensiones y Crédito Público</stamp>
